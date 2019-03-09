@@ -79,7 +79,7 @@ class HaSidebar extends LitElement {
 
     return html`
       <app-toolbar>
-        <div main-title>Home Assistant</div>
+        <div main-title>E-Fonenana</div>
         ${hass.user
           ? html`
               <a href="/profile">
