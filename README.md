@@ -1,6 +1,6 @@
 # E-Fonenana Polymer
 
-## Development
+## Scripts
 
 - Initial setup: `script/setup`
 - Production build: `script/build_frontend`
@@ -63,6 +63,28 @@ To test it out inside E-Fonenana, run the following command from the main E-Fone
 ```bash
 pip3 install -e /path/to/frontend/
 hass --skip-pip
+```
+
+#### Generating distribution archives
+
+Make sure you have the latest versions of setuptools and wheel installed:
+
+```bash
+python3 -m pip install --user --upgrade setuptools wheel
+```
+
+Now run this command from the same directory where setup.py is located:
+
+```bash
+python3 setup.py sdist bdist_wheel
+```
+
+This command should output a lot of text and once completed should generate two files in the dist directory:
+
+```bash
+dist/
+  example_pkg_your_username-0.0.1-py3-none-any.whl
+  example_pkg_your_username-0.0.1.tar.gz
 ```
 
 ### Docker environment
