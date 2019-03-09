@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="home-assistant-frontend",
-    version="20190305.1",
+    version="custom.20190305.1",
     description="The E-Fonenana frontend",
-    url="https://github.com/home-assistant/home-assistant-polymer",
+    url="https://gitlab.com/teamdown/smart-home/frontend",
     author="The E-Fonenana Authors",
-    author_email="hello@home-assistant.io",
+    author_email="nyandrianinamamy@gmail.com",
     license="Apache License 2.0",
     packages=find_packages(
         include=[
