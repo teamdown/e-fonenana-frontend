@@ -1,25 +1,61 @@
-# Home Assistant Polymer [![Build Status](https://travis-ci.org/home-assistant/home-assistant-polymer.svg?branch=master)](https://travis-ci.org/home-assistant/home-assistant-polymer)
-
-This is the repository for the official [Home Assistant](https://home-assistant.io) frontend.
-
-[![Screenshot of the frontend](https://raw.githubusercontent.com/home-assistant/home-assistant-polymer/master/docs/screenshot.png)](https://home-assistant.io/demo/)
-
-- [View demo of the Polymer frontend](https://home-assistant.io/demo/)
-- [More information about Home Assistant](https://home-assistant.io)
-- [Frontend development instructions](https://developers.home-assistant.io/docs/en/frontend_index.html)
+# E-Fonenana Polymer
 
 ## Development
 
 - Initial setup: `script/setup`
-- Development: [Instructions](https://developers.home-assistant.io/docs/en/frontend_development.html)
 - Production build: `script/build_frontend`
 - Gallery: `cd gallery && script/develop_gallery`
-- Hass.io: [Instructions](https://developers.home-assistant.io/docs/en/hassio_hass.html)
 
 ## Frontend development
 
 ### Classic environment
-A complete guide can be found at the following [link](https://www.home-assistant.io/developers/frontend/). It describes a short guide for the build of project.
+#### Getting the code
+
+First clone the project
+
+```bash
+git clone ...
+```
+
+#### Configuring
+You will need to have an instance of E-Fonenana setup.
+
+Next step is to configure E-Fonenana to use the development mode for the frontend. Do this by updating the frontend config in your configuration.yaml and set the path to the project repository that you cloned in the last step:
+```yaml
+frontend:
+  # Example absolute path: /home/paulus/dev/frontend
+  development_repo: <absolute path to repo>
+```
+
+#### Installing Node.js
+Node.js is required to build the frontend. The preferred method of installing node.js is with nvm. Install nvm using the instructions in the README, and install the correct node.js by running the following command:
+
+```bash
+nvm install 10.15
+```
+Yarn is used as the package manager for node modules. Install yarn using the instructions [here](https://yarnpkg.com/en/docs/install).
+
+Next, development dependencies need to be installed to bootstrap the frontend development environment. Download all the dependencies:
+
+```bash
+script/bootstrap
+```
+
+#### Development
+During development, you will need to run the development script to maintain a development build of the frontend that auto updates when you change any of the source files. To run this server, run:
+```bash
+script/develop
+```
+
+#### Building the Polymer frontend
+
+If you're making changes to the way the frontend is packaged, it might be necessary to try out a new packaged build of the frontend in the main repository (instead of pointing it at the frontend repo). To do so, first build a production version of the frontend by running ```script/build_frontend```
+
+To test it out inside E-Fonenana, run the following command from the main E-Fonenana repository:
+```bash
+pip3 install -e /path/to/frontend/
+hass --skip-pip
+```
 
 ### Docker environment
 It is possible to compile the project and/or run commands in the development environment having only the [Docker](https://www.docker.com) pre-installed in the system. On the root of project you can do:
