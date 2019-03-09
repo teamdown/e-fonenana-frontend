@@ -84,7 +84,7 @@ class HaPanelDevState extends EventsMixin(PolymerElement) {
         <div class="content">
           <div>
             <p>
-              Set the representation of a device within Home Assistant.<br />
+              Set the representation of a device within E-Fonenana.<br />
               This will not communicate with the actual device.
             </p>
 

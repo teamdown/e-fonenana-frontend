@@ -106,7 +106,7 @@ class HaPanelDevService extends PolymerElement {
         <div class="content">
           <p>
             The service dev tool allows you to call any available service in
-            Home Assistant.
+            E-Fonenana.
           </p>
 
           <div class="ha-form">

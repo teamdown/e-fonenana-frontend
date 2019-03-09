@@ -88,7 +88,7 @@ export const provideHass = (
   });
 
   const hassObj: MockHomeAssistant = {
-    // Home Assistant properties
+    // E-Fonenana properties
     auth: {} as any,
     connection: {
       addEventListener: () => undefined,

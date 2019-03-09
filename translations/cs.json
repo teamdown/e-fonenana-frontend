@@ -324,8 +324,8 @@
                 "delete_button": "Smazat"
             },
             "config": {
-                "header": "Konfigurace Home Assistant",
-                "introduction": "Zde je možné konfigurovat vaše komponenty a Home Assistant.\nZ uživatelského rozhraní sice zatím není možné konfigurovat vše, ale pracujeme na tom.",
+                "header": "Konfigurace E-Fonenana",
+                "introduction": "Zde je možné konfigurovat vaše komponenty a E-Fonenana.\nZ uživatelského rozhraní sice zatím není možné konfigurovat vše, ale pracujeme na tom.",
                 "core": {
                     "caption": "Obecné",
                     "description": "Ověřte konfigurační soubor a spravujte server",
@@ -342,7 +342,7 @@
                             },
                             "reloading": {
                                 "heading": "Konfigurace se načítá",
-                                "introduction": "Některé části Home Assistant lze načíst bez nutnosti restartování. Načtení zahodí jejich aktuální konfiguraci a načte novou.",
+                                "introduction": "Některé části E-Fonenana lze načíst bez nutnosti restartování. Načtení zahodí jejich aktuální konfiguraci a načte novou.",
                                 "core": "Znovu načíst jádro",
                                 "group": "Znovu načíst skupiny",
                                 "automation": "Znovu načíst automatizace",
@@ -350,7 +350,7 @@
                             },
                             "server_management": {
                                 "heading": "Správa serveru",
-                                "introduction": "Ovládejte svůj Home Assistant server... z Home Assistant.",
+                                "introduction": "Ovládejte svůj E-Fonenana server... z E-Fonenana.",
                                 "restart": "Restartovat",
                                 "stop": "Zastavit"
                             }
@@ -370,7 +370,7 @@
                     "description": "Vytvářejte a upravujte automatizace",
                     "picker": {
                         "header": "Editor automatizací",
-                        "introduction": "Editor automatizací umožňuje vytvářet a upravovat automatizace. Přečtěte si prosím [pokyny] (https:\/\/home-assistant.io\/docs\/automation\/editor\/), abyste se ujistili, že jste aplikaci Home Assistant nakonfigurovali správně.",
+                        "introduction": "Editor automatizací umožňuje vytvářet a upravovat automatizace. Přečtěte si prosím [pokyny] (https:\/\/home-assistant.io\/docs\/automation\/editor\/), abyste se ujistili, že jste aplikaci E-Fonenana nakonfigurovali správně.",
                         "pick_automation": "Vyberte automatizaci, kterou chcete upravit",
                         "no_automations": "Nelze najít žádnou upravitelnou automatizaci",
                         "add_automation": "Přidat automatizaci",
@@ -384,7 +384,7 @@
                         "alias": "Název",
                         "triggers": {
                             "header": "Spouštěče",
-                            "introduction": "Spouštěče spouštějí zpracování automatizačního pravidla. Pro stejné pravidlo je možné zadat více spouštěčů. Po spuštění spouštěče ověří Home Assistant případné podmínky a zavolá akci. \n\n [Další informace o spouštěčích.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Spouštěče spouštějí zpracování automatizačního pravidla. Pro stejné pravidlo je možné zadat více spouštěčů. Po spuštění spouštěče ověří E-Fonenana případné podmínky a zavolá akci. \n\n [Další informace o spouštěčích.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Přidat spouštěč",
                             "duplicate": "Duplikovat",
                             "delete": "Smazat",
@@ -404,7 +404,7 @@
                                     "for": "Po dobu"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Událost:",
                                     "start": "Spuštění",
                                     "shutdown": "Ukončení"
@@ -512,7 +512,7 @@
                         },
                         "actions": {
                             "header": "Akce",
-                            "introduction": "Akce jsou to, co Home Assistant provede při spuštění automatizace. \n\n [Více informací o akcích.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Akce jsou to, co E-Fonenana provede při spuštění automatizace. \n\n [Více informací o akcích.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Přidat akci",
                             "duplicate": "Duplikovat",
                             "delete": "Smazat",
@@ -577,7 +577,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "Přihlášen jako {email}",
                     "description_not_login": "Nepřihlášen"
                 },
@@ -593,7 +593,7 @@
                         "no_devices": "Tato integrace nemá žádná zařízení.",
                         "no_device": "Entity bez zařízení",
                         "delete_confirm": "Opravdu chcete odstranit tuto integraci?",
-                        "restart_confirm": "Restartujte Home Assistant pro odstranění této integrace",
+                        "restart_confirm": "Restartujte E-Fonenana pro odstranění této integrace",
                         "manuf": "od {manufacturer}",
                         "hub": "Připojeno přes",
                         "firmware": "Firmware: {version}",
@@ -646,7 +646,7 @@
                 },
                 "person": {
                     "caption": "Osoby",
-                    "description": "Spravujte osoby, které Home Assistant sleduje.",
+                    "description": "Spravujte osoby, které E-Fonenana sleduje.",
                     "detail": {
                         "name": "Jméno",
                         "device_tracker_intro": "Vyberte zařízení, která patří této osobě.",
@@ -688,7 +688,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Tokeny s dlouhou životností",
-                    "description": "Vytvořte přístupové tokeny s dlouhou životností, aby vaše skripty mohly komunikovat s instancí Home Assistant. Každý token bude platný po dobu 10 let od vytvoření. Tyto tokeny s dlouhou životností jsou v současné době aktivní.",
+                    "description": "Vytvořte přístupové tokeny s dlouhou životností, aby vaše skripty mohly komunikovat s instancí E-Fonenana. Každý token bude platný po dobu 10 let od vytvoření. Tyto tokeny s dlouhou životností jsou v současné době aktivní.",
                     "learn_auth_requests": "Naučte se, jak posílat ověřené požadavky.",
                     "created_at": "Vytvořeno {date}",
                     "confirm_delete": "Opravdu chcete smazat přístupový token pro {name} ?",
@@ -728,7 +728,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicializuji",
-                "authorizing_client": "Chystáte se dát {clientId} práva pro instanci Home Assistant.",
+                "authorizing_client": "Chystáte se dát {clientId} práva pro instanci E-Fonenana.",
                 "logging_in_with": "Přihlásit se pomocí **{authProviderName}**.",
                 "pick_auth_provider": "Nebo se přihlaste s",
                 "abort_intro": "Přihlášení bylo zrušeno",
@@ -865,7 +865,7 @@
                     "migrate": {
                         "header": "Konfigurace není kompatibilní",
                         "para_no_id": "Tento prvek nemá ID. Přidejte k tomuto prvku ID v 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant může automaticky přidávat ID ke všem kartám a pohledům stisknutím tlačítka \"Migrovat konfiguraci\".",
+                        "para_migrate": "E-Fonenana může automaticky přidávat ID ke všem kartám a pohledům stisknutím tlačítka \"Migrovat konfiguraci\".",
                         "migrate": "Migrovat konfiguraci"
                     },
                     "header": "Upravit UI",
@@ -877,7 +877,7 @@
                     },
                     "save_config": {
                         "header": "Převzít kontrolu nad vaší Lovelace UI",
-                        "para": "Ve výchozím nastavení bude Home Assistant spravovat vaše uživatelské rozhraní – aktualizovat jej při přidání nové entity nebo Lovelace komponenty. Pokud převezmete kontrolu, nebudeme již provádět změny automaticky za vás.",
+                        "para": "Ve výchozím nastavení bude E-Fonenana spravovat vaše uživatelské rozhraní – aktualizovat jej při přidání nové entity nebo Lovelace komponenty. Pokud převezmete kontrolu, nebudeme již provádět změny automaticky za vás.",
                         "para_sure": "Opravdu chcete převzít kontrolu nad uživalským rohraním ?",
                         "cancel": "Zahodit změnu",
                         "save": "Převzít kontrolu"
@@ -1136,7 +1136,7 @@
         "vacuum": "Vysavač",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "E-Fonenana",
         "lovelace": "Lovelace",
         "system_health": "Kondice systému",
         "person": "Osoba"

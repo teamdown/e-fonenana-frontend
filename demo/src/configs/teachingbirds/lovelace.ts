@@ -1612,13 +1612,13 @@ export const demoLovelaceTeachingbirds: () => LovelaceConfig = () => ({
                 {
                   url: "https://www.home-assistant.io/",
                   type: "weblink",
-                  name: "Home Assistant",
+                  name: "E-Fonenana",
                   icon: "mdi:home-assistant",
                 },
                 {
                   url: "https://rc--home-assistant-docs.netlify.com/",
                   type: "weblink",
-                  name: "Home Assistant Beta",
+                  name: "E-Fonenana Beta",
                   icon: "mdi:home-assistant",
                 },
                 {

@@ -79,12 +79,12 @@ export class HADemoCard extends LitElement implements LovelaceCard {
           ></ha-paper-icon-button-next>
         </div>
         <div class="content">
-          Welcome home! You've reached the Home Assistant demo where we showcase
-          the best UIs created by our community.
+          Welcome home! You've reached the E-Fonenana demo where we showcase the
+          best UIs created by our community.
         </div>
         <div class="actions">
           <a href="https://www.home-assistant.io" target="_blank">
-            <mwc-button>Learn more about Home Assistant</mwc-button>
+            <mwc-button>Learn more about E-Fonenana</mwc-button>
           </a>
         </div>
       </ha-card>

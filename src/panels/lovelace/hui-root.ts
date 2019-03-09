@@ -185,7 +185,7 @@ class HUIRoot extends LitElement {
                     .narrow="${this.narrow}"
                     .showMenu="${this.showMenu}"
                   ></ha-menu-button>
-                  <div main-title>${this.config.title || "Home Assistant"}</div>
+                  <div main-title>${this.config.title || "E-Fonenana"}</div>
                   <hui-notifications-button
                     .hass="${this.hass}"
                     .opened="${this._notificationsOpen}"

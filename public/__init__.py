@@ -1,4 +1,4 @@
-"""Frontend for Home Assistant."""
+"""Frontend for E-Fonenana."""
 import os
 from user_agents import parse
 

@@ -71,26 +71,25 @@ class HaConfigCloudLogin extends NavigateMixin(EventsMixin(PolymerElement)) {
       <hass-subpage header="Cloud Login">
         <div class="content">
           <ha-config-section is-wide="[[isWide]]">
-            <span slot="header">Home Assistant Cloud</span>
+            <span slot="header">E-Fonenana Cloud</span>
             <div slot="introduction">
               <p>
-                Home Assistant Cloud connects your local instance securely to
+                E-Fonenana Cloud connects your local instance securely to
                 cloud-only services Amazon Alexa and Google Assistant.
               </p>
               <p>
                 This service is run by our partner
                 <a href="https://www.nabucasa.com" target="_blank"
                   >Nabu&nbsp;Casa,&nbsp;Inc</a
-                >, a company founded by the founders of Home Assistant and
-                Hass.io.
+                >, a company founded by the founders of E-Fonenana and Hass.io.
               </p>
               <p>
-                Home Assistant Cloud is a subscription service with a free one
-                month trial. No payment information necessary.
+                E-Fonenana Cloud is a subscription service with a free one month
+                trial. No payment information necessary.
               </p>
               <p>
                 <a href="https://www.nabucasa.com" target="_blank"
-                  >Learn more about Home Assistant Cloud</a
+                  >Learn more about E-Fonenana Cloud</a
                 >
               </p>
             </div>

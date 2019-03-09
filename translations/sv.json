@@ -324,8 +324,8 @@
                 "delete_button": "Ta bort"
             },
             "config": {
-                "header": "Konfigurera Home Assistant",
-                "introduction": "Här går det att konfigurera dina komponenter och Home Assistant. Det är inte möjligt att ställa in allt från användargränssnittet ännu, men vi jobbar på det.",
+                "header": "Konfigurera E-Fonenana",
+                "introduction": "Här går det att konfigurera dina komponenter och E-Fonenana. Det är inte möjligt att ställa in allt från användargränssnittet ännu, men vi jobbar på det.",
                 "core": {
                     "caption": "Allmänt",
                     "description": "Kontrollera din konfiguration och hantera servern.",
@@ -342,7 +342,7 @@
                             },
                             "reloading": {
                                 "heading": "Uppdatering av konfigurationen",
-                                "introduction": "Vissa delar av Home Assistant kan laddas om utan att en omstart krävs. Att trycka på \"Uppdatera\" innebär att den nuvarande konfiguration inaktiveras och den nya laddas.",
+                                "introduction": "Vissa delar av E-Fonenana kan laddas om utan att en omstart krävs. Att trycka på \"Uppdatera\" innebär att den nuvarande konfiguration inaktiveras och den nya laddas.",
                                 "core": "Uppdatera kärnan",
                                 "group": "Uppdatera grupper",
                                 "automation": "Uppdatera automationer",
@@ -350,7 +350,7 @@
                             },
                             "server_management": {
                                 "heading": "Serverhantering",
-                                "introduction": "Hantera din Home Assistant server... från Home Assistant.",
+                                "introduction": "Hantera din E-Fonenana server... från E-Fonenana.",
                                 "restart": "Starta om",
                                 "stop": "Stoppa"
                             }
@@ -370,7 +370,7 @@
                     "description": "Skapa och redigera automationer",
                     "picker": {
                         "header": "Automatiseringseditor",
-                        "introduction": "Automatiseringseditorn låter dig skapa och redigera automationer. Läs [instruktionerna](https:\/\/home-assistant.io\/docs\/automation\/editor\/) för att se till att du har konfigurerat Home Assistant korrekt.",
+                        "introduction": "Automatiseringseditorn låter dig skapa och redigera automationer. Läs [instruktionerna](https:\/\/home-assistant.io\/docs\/automation\/editor\/) för att se till att du har konfigurerat E-Fonenana korrekt.",
                         "pick_automation": "Välj automation att redigera",
                         "no_automations": "Vi kunde inte hitta några redigerbara automationer",
                         "add_automation": "Lägg till automatisering",
@@ -384,7 +384,7 @@
                         "alias": "Namn",
                         "triggers": {
                             "header": "Triggers",
-                            "introduction": "Triggers är det som startar en automation. Det är möjligt att ange flera triggers för samma regel. När en trigger inträffar kommer Home Assistant att validera eventuella villkor och sedan köra åtgärden\n\n[Läs mer om triggers.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Triggers är det som startar en automation. Det är möjligt att ange flera triggers för samma regel. När en trigger inträffar kommer E-Fonenana att validera eventuella villkor och sedan köra åtgärden\n\n[Läs mer om triggers.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Lägg till händelse",
                             "duplicate": "Duplicera",
                             "delete": "Radera",
@@ -404,7 +404,7 @@
                                     "for": "För"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Händelse:",
                                     "start": "Starta",
                                     "shutdown": "Stoppa"
@@ -577,7 +577,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "Inloggad som {email}",
                     "description_not_login": "Inte inloggad"
                 },
@@ -593,7 +593,7 @@
                         "no_devices": "Denna integration har inga enheter.",
                         "no_device": "Entitet utan enheter",
                         "delete_confirm": "Är du säker på att du vill radera denna integration?",
-                        "restart_confirm": "Starta om Home Assistant för att slutföra borttagningen av denna integration",
+                        "restart_confirm": "Starta om E-Fonenana för att slutföra borttagningen av denna integration",
                         "manuf": "av {manufacturer}",
                         "hub": "Ansluten via",
                         "firmware": "Firmware: {version}",
@@ -614,7 +614,7 @@
                     "description": "Oversikt över alla områden i ditt hem",
                     "picker": {
                         "header": "Områdesregister",
-                        "introduction": "Områden används för att organisera var enheter befinner sig. Denna information kommer att användas i hela Home Assistant för att hjälpa dig att organisera ditt gränssnitt, behörigheter och integreringar med andra system.",
+                        "introduction": "Områden används för att organisera var enheter befinner sig. Denna information kommer att användas i hela E-Fonenana för att hjälpa dig att organisera ditt gränssnitt, behörigheter och integreringar med andra system.",
                         "introduction2": "Om du vill placera enheter i ett område använder du länken nedan för att navigera till integrationssidan och klickar sedan på en konfigurerad integration för att komma till enhetskort.",
                         "integrations_page": "Integrationssidan"
                     },
@@ -633,8 +633,8 @@
                     "picker": {
                         "header": "Enhetsregister",
                         "unavailable": "(ej tillgänglig)",
-                        "introduction": "Home Assistanthar ett enhetsregister som innehåller varje enhet som någonsin har setts vars identifieras kan vara unikt. Var och en av dessa enheter kommer att ha ett ID-nummer som är reserverat för bara den enheten.",
-                        "introduction2": "Använd enhetsregistret för att skriva över namnet, ändra ID eller ta bort posten ifrån Home Assistant. Obs! Att ta bort posten ifrån entity registry (enhetsregister) kommer inte att ta bort enheten. För att göra det, följ länken nedan och ta bort det från integreringssidan.",
+                        "introduction": "E-Fonenanahar ett enhetsregister som innehåller varje enhet som någonsin har setts vars identifieras kan vara unikt. Var och en av dessa enheter kommer att ha ett ID-nummer som är reserverat för bara den enheten.",
+                        "introduction2": "Använd enhetsregistret för att skriva över namnet, ändra ID eller ta bort posten ifrån E-Fonenana. Obs! Att ta bort posten ifrån entity registry (enhetsregister) kommer inte att ta bort enheten. För att göra det, följ länken nedan och ta bort det från integreringssidan.",
                         "integrations_page": "Integrationssida"
                     },
                     "editor": {
@@ -646,7 +646,7 @@
                 },
                 "person": {
                     "caption": "Personer",
-                    "description": "Hantera de personer som Home Assistant spårar.",
+                    "description": "Hantera de personer som E-Fonenana spårar.",
                     "detail": {
                         "name": "Namn",
                         "device_tracker_intro": "Välj de enheter som tillhör till den här personen.",
@@ -688,7 +688,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Långlivade åtkomsttoken",
-                    "description": "Skapa långlivade åtkomsttokens för att låta dina skript interagera med din Home Assistant. Varje token kommer att vara giltig i 10 år från skapandet. Följande långlivade åtkomsttoken är för närvarande aktiva.",
+                    "description": "Skapa långlivade åtkomsttokens för att låta dina skript interagera med din E-Fonenana. Varje token kommer att vara giltig i 10 år från skapandet. Följande långlivade åtkomsttoken är för närvarande aktiva.",
                     "learn_auth_requests": "Lär dig hur du gör autentiserade förfrågningar.",
                     "created_at": "Skapades den {date}",
                     "confirm_delete": "Är du säker du vill radera åtkomsttoken för {name}?",
@@ -728,7 +728,7 @@
             },
             "page-authorize": {
                 "initializing": "Initierar",
-                "authorizing_client": "Du håller på att ge {clientId} behörighet till din Home Assistant.",
+                "authorizing_client": "Du håller på att ge {clientId} behörighet till din E-Fonenana.",
                 "logging_in_with": "Loggar in med **{authProviderName}**.",
                 "pick_auth_provider": "Eller logga in med",
                 "abort_intro": "Inloggning avbruten",
@@ -865,7 +865,7 @@
                     "migrate": {
                         "header": "Konfigurationen är inte giltig",
                         "para_no_id": "Det här elementet har inget ID. Lägg till ett ID till det här elementet i \"ui-lovelace.yaml\".",
-                        "para_migrate": "Home Assistant kan automatiskt lägga till ID till alla dina kort och vyer genom att du klickar på \"Migrera konfiguration\".",
+                        "para_migrate": "E-Fonenana kan automatiskt lägga till ID till alla dina kort och vyer genom att du klickar på \"Migrera konfiguration\".",
                         "migrate": "Migrera konfigurationen"
                     },
                     "header": "Ändra användargränssnittet",
@@ -877,7 +877,7 @@
                     },
                     "save_config": {
                         "header": "Ta kontroll över ditt Lovelace användargränssnitt",
-                        "para": "Home Assistant kommer som standard att behålla ditt användargränssnitt, uppdatera det när nya enheter eller Lovelace-komponenter blir tillgängliga. Om du tar kontroll kommer vi inte längre göra ändringar automatiskt för dig.",
+                        "para": "E-Fonenana kommer som standard att behålla ditt användargränssnitt, uppdatera det när nya enheter eller Lovelace-komponenter blir tillgängliga. Om du tar kontroll kommer vi inte längre göra ändringar automatiskt för dig.",
                         "para_sure": "Är du säker på att du vill ta kontroll över ditt användargränssnitt?",
                         "cancel": "Glöm det",
                         "save": "Ta kontroll"
@@ -1136,7 +1136,7 @@
         "vacuum": "Dammsugare",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "E-Fonenana",
         "lovelace": "Lovelace",
         "system_health": "Systemhälsa",
         "person": "Person"

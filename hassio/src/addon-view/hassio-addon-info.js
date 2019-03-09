@@ -25,9 +25,9 @@ const PERMIS_DESC = {
       "Add-ons usually run in their own isolated network layer, which prevents them from accessing the network of the host operating system. In some cases, this network isolation can limit add-ons in providing their services and therefore, the isolation can be lifted by the add-on author, giving the addon full access to the network capabilities of the host machine. This gives the addon more networking capabilities but lowers the security, hence, the security rating of the add-on will be lowered when this option is used by the addon.",
   },
   homeassistant_api: {
-    title: "Home Assistant API Access",
+    title: "E-Fonenana API Access",
     description:
-      "This add-on is allowed to access your running Home Assistant instance directly via the Home Assistant API. This mode handles authentication for the addon as well, which enables an addon to interact with Home Assistant without the need for additional authentication tokens.",
+      "This add-on is allowed to access your running E-Fonenana instance directly via the E-Fonenana API. This mode handles authentication for the addon as well, which enables an addon to interact with E-Fonenana without the need for additional authentication tokens.",
   },
   full_access: {
     title: "Full Hardware Access",
@@ -55,9 +55,9 @@ const PERMIS_DESC = {
       "AppArmor ('Application Armor') is a Linux kernel security module that restricts addons capabilities like network access, raw socket access, and permission to read, write, or execute specific files.\n\nAddon authors can provide their security profiles, optimized for the addon, or request it to be disabled. If AppArmor is disabled, it will raise security risks and therefore, has a negative impact on the security score of the addon.",
   },
   auth_api: {
-    title: "Home Assistant Authentication",
+    title: "E-Fonenana Authentication",
     description:
-      "An addon can authenticate users against Home Assistant, allowing add-ons to give users the possibility to log into applications running inside add-ons, using their Home Assistant username/password. This badge indicates if the add-on author requests this capability.",
+      "An addon can authenticate users against E-Fonenana, allowing add-ons to give users the possibility to log into applications running inside add-ons, using their E-Fonenana username/password. This badge indicates if the add-on author requests this capability.",
   },
 };
 

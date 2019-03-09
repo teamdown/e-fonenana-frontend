@@ -82,7 +82,7 @@ class HaPanelDevTemplate extends PolymerElement {
           <div class="edit-pane">
             <p>
               Templates are rendered using the Jinja2 template engine with some
-              Home Assistant specific extensions.
+              E-Fonenana specific extensions.
             </p>
             <ul>
               <li>
@@ -96,7 +96,7 @@ class HaPanelDevTemplate extends PolymerElement {
                 <a
                   href="https://home-assistant.io/docs/configuration/templating/"
                   target="_blank"
-                  >Home Assistant template extensions</a
+                  >E-Fonenana template extensions</a
                 >
               </li>
             </ul>

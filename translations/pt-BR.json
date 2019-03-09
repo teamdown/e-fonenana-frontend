@@ -311,8 +311,8 @@
                 "delete_button": "Excluir"
             },
             "config": {
-                "header": "Configurar o Home Assistant",
-                "introduction": "Aqui é possível configurar seus componentes e Home Assistant. Nem tudo é possível configurar via UI, mas estamos trabalhando nisso.",
+                "header": "Configurar o E-Fonenana",
+                "introduction": "Aqui é possível configurar seus componentes e E-Fonenana. Nem tudo é possível configurar via UI, mas estamos trabalhando nisso.",
                 "core": {
                     "caption": "Geral",
                     "description": "Valide seu arquivo de configuração e controle o servidor",
@@ -329,7 +329,7 @@
                             },
                             "reloading": {
                                 "heading": "Recarregando configuração",
-                                "introduction": "Algumas partes do Home Assistant podem ser recarregadas sem a necessidade de reiniciar. Recarregando irá substituir a sua configuração atual por uma nova.",
+                                "introduction": "Algumas partes do E-Fonenana podem ser recarregadas sem a necessidade de reiniciar. Recarregando irá substituir a sua configuração atual por uma nova.",
                                 "core": "Recarregar sistema",
                                 "group": "Recarregar grupos",
                                 "automation": "Recarregar automações",
@@ -337,7 +337,7 @@
                             },
                             "server_management": {
                                 "heading": "Gerenciamento do servidor",
-                                "introduction": "Controle seu servidor do Home Assistant... A partir do Home Assistant.",
+                                "introduction": "Controle seu servidor do E-Fonenana... A partir do E-Fonenana.",
                                 "restart": "Reiniciar",
                                 "stop": "Parar"
                             }
@@ -353,7 +353,7 @@
                     "description": "Criar e editar automações",
                     "picker": {
                         "header": "Editor de automação",
-                        "introduction": "O editor de automação permite que você crie e edite automações. Por favor leia [as instruções](https:\/\/home-assistant.io\/docs\/automation\/editor\/) para certificar-se que configurou o Home Assistant corretamente.",
+                        "introduction": "O editor de automação permite que você crie e edite automações. Por favor leia [as instruções](https:\/\/home-assistant.io\/docs\/automation\/editor\/) para certificar-se que configurou o E-Fonenana corretamente.",
                         "pick_automation": "Escolha uma automação para editar",
                         "no_automations": "Não encontramos nenhuma automação editável",
                         "add_automation": "Adicionar automação"
@@ -366,7 +366,7 @@
                         "alias": "Nome",
                         "triggers": {
                             "header": "Gatilhos",
-                            "introduction": "Os gatilhos são o que iniciam o processamento das regras de automações. É possível especificar múltiplos gatilhos para a mesma regra. Quando o gatilho inicia, o Home Assistant vai validar as condições, se existirem, e iniciar as ações.\n\n[Veja mais sobre gatilhos.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Os gatilhos são o que iniciam o processamento das regras de automações. É possível especificar múltiplos gatilhos para a mesma regra. Quando o gatilho inicia, o E-Fonenana vai validar as condições, se existirem, e iniciar as ações.\n\n[Veja mais sobre gatilhos.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Adicionar gatilho",
                             "duplicate": "Duplicar",
                             "delete": "Apagar",
@@ -482,7 +482,7 @@
                         },
                         "actions": {
                             "header": "Ações",
-                            "introduction": "As ações são as que o Home Assistant irá executar quando a automação for iniciada.",
+                            "introduction": "As ações são as que o E-Fonenana irá executar quando a automação for iniciada.",
                             "add": "Adicionar ação",
                             "duplicate": "Duplicar",
                             "delete": "Apagar",
@@ -544,7 +544,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "Conectado como {email}",
                     "description_not_login": "Não logado"
                 },
@@ -560,7 +560,7 @@
                         "no_devices": "Esta integração não possui dispositivos.",
                         "no_device": "Entidades sem dispositivos",
                         "delete_confirm": "Tem certeza de que deseja excluir essa integração?",
-                        "restart_confirm": "Reinicie o Home Assistant para concluir a remoção dessa integração",
+                        "restart_confirm": "Reinicie o E-Fonenana para concluir a remoção dessa integração",
                         "manuf": "por {manufacturer}",
                         "hub": "Conectado via",
                         "firmware": "Firmware: {version}",
@@ -602,7 +602,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Tokens de acesso de longa duração",
-                    "description": "Crie tokens de acesso de longa duração para permitir que seus scripts interajam com sua instância do Home Assistant. Cada token será válido por 10 anos a partir da criação. Os seguintes tokens de acesso de longa duração estão atualmente ativos.",
+                    "description": "Crie tokens de acesso de longa duração para permitir que seus scripts interajam com sua instância do E-Fonenana. Cada token será válido por 10 anos a partir da criação. Os seguintes tokens de acesso de longa duração estão atualmente ativos.",
                     "learn_auth_requests": "Aprenda como fazer solicitações autenticadas.",
                     "created_at": "Criado em {date}",
                     "confirm_delete": "Tem certeza de que deseja excluir o token de acesso para {name} ?",
@@ -642,7 +642,7 @@
             },
             "page-authorize": {
                 "initializing": "Iniciando",
-                "authorizing_client": "Você está prestes a dar acesso pra {clientId} à sua instância do Home Assistant.",
+                "authorizing_client": "Você está prestes a dar acesso pra {clientId} à sua instância do E-Fonenana.",
                 "logging_in_with": "Fazendo login com **{authProviderName}**.",
                 "pick_auth_provider": "Ou entre com",
                 "abort_intro": "Login cancelado",
@@ -758,7 +758,7 @@
                     "migrate": {
                         "header": "Configuração Incompatível",
                         "para_no_id": "Este elemento não possui um ID. Por favor adicione um ID a este elemento em 'ui-lovelace.yaml'.",
-                        "para_migrate": "O Home Assistant pode adicionar IDs a todos os seus cards e visualizações automaticamente clicando no botão 'Migrar config'.",
+                        "para_migrate": "O E-Fonenana pode adicionar IDs a todos os seus cards e visualizações automaticamente clicando no botão 'Migrar config'.",
                         "migrate": "Migrar configuração"
                     },
                     "header": "Editar “interface” do usuário",
@@ -770,7 +770,7 @@
                     },
                     "save_config": {
                         "header": "Assuma o controle da sua interface do Lovelace",
-                        "para": "Por padrão, o Home Assistant manterá sua interface de usuário, atualizando-a quando novas entidades ou componentes do Lovelace estiverem disponíveis. Se você assumir o controle, não faremos mais alterações automaticamente para você.",
+                        "para": "Por padrão, o E-Fonenana manterá sua interface de usuário, atualizando-a quando novas entidades ou componentes do Lovelace estiverem disponíveis. Se você assumir o controle, não faremos mais alterações automaticamente para você.",
                         "para_sure": "Tem certeza de que deseja assumir o controle da sua interface de usuário?",
                         "cancel": "Nunca",
                         "save": "Assuma o controle"

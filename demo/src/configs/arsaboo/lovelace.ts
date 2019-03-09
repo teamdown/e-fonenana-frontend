@@ -528,7 +528,8 @@ export const demoLovelaceArsaboo: () => LovelaceConfig = () => ({
         {
           type: "iframe",
           aspect_ratio: "90%",
-          url: "https://embed.windy.com/embed2.html?lat=32.487&lon=-84.023&zoom=5&level=surface&overlay=rain&menu=&message=&marker=&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=32.487&detailLon=--84.023&metricWind=default&metricTemp=default&radarRange=-1",
+          url:
+            "https://embed.windy.com/embed2.html?lat=32.487&lon=-84.023&zoom=5&level=surface&overlay=rain&menu=&message=&marker=&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=32.487&detailLon=--84.023&metricWind=default&metricTemp=default&radarRange=-1",
         },
         {
           type: "entities",
@@ -630,19 +631,19 @@ export const demoLovelaceArsaboo: () => LovelaceConfig = () => ({
     {
       icon: "hass:information-outline",
       id: "home-assistant",
-      title: "Home Assistant",
+      title: "E-Fonenana",
       cards: [
         {
           type: "markdown",
           content:
-            "## What is Home Assistant?\nHome Assistant is open source home automation software, that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.",
+            "## What is E-Fonenana?\nE-Fonenana is open source home automation software, that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.",
         },
         {
           entities: [
             {
               url: "https://www.home-assistant.io/",
               type: "weblink",
-              name: "Home Assistant",
+              name: "E-Fonenana",
               icon: "mdi:home-assistant",
             },
             {

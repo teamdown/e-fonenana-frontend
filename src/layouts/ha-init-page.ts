@@ -27,7 +27,7 @@ class HaInitPage extends LitElement {
         <paper-spinner-lite .active=${!this.error}></paper-spinner-lite>
         ${this.error
           ? html`
-              Unable to connect to Home Assistant.
+              Unable to connect to E-Fonenana.
               <mwc-button @click=${this._retry}>Retry</mwc-button>
             `
           : "Loading data"}

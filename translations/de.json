@@ -324,8 +324,8 @@
                 "delete_button": "Löschen"
             },
             "config": {
-                "header": "Home Assistant konfigurieren",
-                "introduction": "Hier ist es möglich, deine Komponenten und Home Assistant zu konfigurieren. Noch ist nicht alles über die GUI einstellbar, aber wir arbeiten daran.",
+                "header": "E-Fonenana konfigurieren",
+                "introduction": "Hier ist es möglich, deine Komponenten und E-Fonenana zu konfigurieren. Noch ist nicht alles über die GUI einstellbar, aber wir arbeiten daran.",
                 "core": {
                     "caption": "Allgemein",
                     "description": "Überprüfe deine Konfigurationsdatei und steuer den Server",
@@ -342,7 +342,7 @@
                             },
                             "reloading": {
                                 "heading": "Konfiguration neu laden",
-                                "introduction": "Einige Komponenten von Home Assistant können ohne einen Neustart neu geladen werden. \"Neu laden\" entlädt dabei die aktuelle Konfiguration und lädt die Neue.",
+                                "introduction": "Einige Komponenten von E-Fonenana können ohne einen Neustart neu geladen werden. \"Neu laden\" entlädt dabei die aktuelle Konfiguration und lädt die Neue.",
                                 "core": "Hauptsystem neu laden",
                                 "group": "Gruppen neu laden",
                                 "automation": "Automatisierungen neu laden",
@@ -350,7 +350,7 @@
                             },
                             "server_management": {
                                 "heading": "Serververwaltung",
-                                "introduction": "Verwalte den Home Assistant Server",
+                                "introduction": "Verwalte den E-Fonenana Server",
                                 "restart": "Neu starten",
                                 "stop": "Stoppen"
                             }
@@ -370,7 +370,7 @@
                     "description": "Automatisierungen erstellen und bearbeiten",
                     "picker": {
                         "header": "Automatisierungseditor",
-                        "introduction": "Mit dem Automationseditor können Automatisierungen erstellt und bearbeitet werden. Bitte folge dem nachfolgenden Link, um die Anleitung zu lesen, um sicherzustellen, dass du Home Assistant richtig konfiguriert hast.",
+                        "introduction": "Mit dem Automationseditor können Automatisierungen erstellt und bearbeitet werden. Bitte folge dem nachfolgenden Link, um die Anleitung zu lesen, um sicherzustellen, dass du E-Fonenana richtig konfiguriert hast.",
                         "pick_automation": "Wähle eine Automatisierung zum Bearbeiten",
                         "no_automations": "Wir konnten keine editierbaren Automatisierungen finden",
                         "add_automation": "Automatisierung hinzufügen",
@@ -384,7 +384,7 @@
                         "alias": "Name",
                         "triggers": {
                             "header": "Auslöser",
-                            "introduction": "Auslöser starten automatisierte Abläufe. Es ist möglich, mehrere Auslöser für dieselbe Abfolge zu definieren. Wenn ein Auslöser aktiviert wird, prüft Home Assistant die Bedingungen, sofern vorhanden, und führt die Aktion aus.",
+                            "introduction": "Auslöser starten automatisierte Abläufe. Es ist möglich, mehrere Auslöser für dieselbe Abfolge zu definieren. Wenn ein Auslöser aktiviert wird, prüft E-Fonenana die Bedingungen, sofern vorhanden, und führt die Aktion aus.",
                             "add": "Auslöser hinzufügen",
                             "duplicate": "Duplizieren",
                             "delete": "Löschen",
@@ -404,7 +404,7 @@
                                     "for": "Für"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Ereignis:",
                                     "start": "Start",
                                     "shutdown": "Beenden"
@@ -512,7 +512,7 @@
                         },
                         "actions": {
                             "header": "Aktionen",
-                            "introduction": "Aktionen werden von Home Assistant ausgeführt, wenn Automatisierungen ausgelöst werden.",
+                            "introduction": "Aktionen werden von E-Fonenana ausgeführt, wenn Automatisierungen ausgelöst werden.",
                             "add": "Aktion hinzufügen",
                             "duplicate": "Duplizieren",
                             "delete": "Löschen",
@@ -577,7 +577,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "Angemeldet als {email}",
                     "description_not_login": "Nicht angemeldet"
                 },
@@ -593,7 +593,7 @@
                         "no_devices": "Diese Integration hat keine Geräte.",
                         "no_device": "Entitäten ohne Geräte",
                         "delete_confirm": "Möchtest du diese Integration wirklich löschen?",
-                        "restart_confirm": "Starte Home Assistant neu, um das Entfernen dieser Integration abzuschließen",
+                        "restart_confirm": "Starte E-Fonenana neu, um das Entfernen dieser Integration abzuschließen",
                         "manuf": "von {manufacturer}",
                         "hub": "Verbunden über",
                         "firmware": "Firmware: {version}",
@@ -614,7 +614,7 @@
                     "description": "Überblick über alle Bereiche in Deinem Haus.",
                     "picker": {
                         "header": "Bereichsregister",
-                        "introduction": "In Bereichen wird festgelegt, wo sich Geräte befinden. Diese Informationen werden in Home Assistant verwendet, um dich bei der Organisation deiner Benutzeroberfläche, Berechtigungen und Integrationen mit anderen Systemen zu unterstützen.",
+                        "introduction": "In Bereichen wird festgelegt, wo sich Geräte befinden. Diese Informationen werden in E-Fonenana verwendet, um dich bei der Organisation deiner Benutzeroberfläche, Berechtigungen und Integrationen mit anderen Systemen zu unterstützen.",
                         "introduction2": "Um Geräte in einem Bereich zu platzieren, navigieren Sie mit dem Link unten zur Integrationsseite und klicken Sie dann auf eine konfigurierte Integration, um zu den Gerätekarten zu gelangen.",
                         "integrations_page": "Integrationsseite"
                     },
@@ -633,8 +633,8 @@
                     "picker": {
                         "header": "Entitätsregister",
                         "unavailable": "(nicht verfügbar)",
-                        "introduction": "Der Home Assistant führt eine Registrierung aller Entitäten, die er je gesehen hat und die eindeutig identifiziert werden können. Jeder dieser Entitäten wird eine Entitäts-ID zugewiesen, die nur für diese Entität reserviert ist.",
-                        "introduction2": "Verwende die Entitätsregistrierung, um den Namen zu überschreiben, die Entitäts-ID zu ändern oder den Eintrag aus dem Home Assistant zu entfernen. Beachte, dass das Entfernen des Entitätsregistrierungseintrags die Entität nicht löscht. Folge dazu dem Link unten und entferne ihn in der Integrationsseite.",
+                        "introduction": "Der E-Fonenana führt eine Registrierung aller Entitäten, die er je gesehen hat und die eindeutig identifiziert werden können. Jeder dieser Entitäten wird eine Entitäts-ID zugewiesen, die nur für diese Entität reserviert ist.",
+                        "introduction2": "Verwende die Entitätsregistrierung, um den Namen zu überschreiben, die Entitäts-ID zu ändern oder den Eintrag aus dem E-Fonenana zu entfernen. Beachte, dass das Entfernen des Entitätsregistrierungseintrags die Entität nicht löscht. Folge dazu dem Link unten und entferne ihn in der Integrationsseite.",
                         "integrations_page": "Integrationsseite"
                     },
                     "editor": {
@@ -646,7 +646,7 @@
                 },
                 "person": {
                     "caption": "Personen",
-                    "description": "Verwalte die Personen, die Home Assistant verfolgt.",
+                    "description": "Verwalte die Personen, die E-Fonenana verfolgt.",
                     "detail": {
                         "name": "Name",
                         "device_tracker_intro": "Wähle die Geräte, die dieser Person gehören.",
@@ -688,7 +688,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Langlebige Zugangs-Token",
-                    "description": "Erstelle langlebige Zugriffstoken, damit deine Skripte mit deiner Home Assistant-Instanz interagieren können. Jedes Token ist ab der Erstellung für 10 Jahre gültig. Die folgenden langlebigen Zugriffstoken sind derzeit aktiv.",
+                    "description": "Erstelle langlebige Zugriffstoken, damit deine Skripte mit deiner E-Fonenana-Instanz interagieren können. Jedes Token ist ab der Erstellung für 10 Jahre gültig. Die folgenden langlebigen Zugriffstoken sind derzeit aktiv.",
                     "learn_auth_requests": "Erfahre, wie du authentifizierte Anfragen stellen kannst.",
                     "created_at": "Erstellt am {date}",
                     "confirm_delete": "Möchtest du den Zugriffs-Token für {name} wirklich löschen?",
@@ -728,7 +728,7 @@
             },
             "page-authorize": {
                 "initializing": "Initialisieren",
-                "authorizing_client": "Du bist dabei, {clientId} Zugriff auf deine Home Assistant Instanz zu gewähren.",
+                "authorizing_client": "Du bist dabei, {clientId} Zugriff auf deine E-Fonenana Instanz zu gewähren.",
                 "logging_in_with": "Anmeldung mit **{authProviderName}**.",
                 "pick_auth_provider": "Oder melde dich an mit",
                 "abort_intro": "Anmeldung abgebrochen",
@@ -865,7 +865,7 @@
                     "migrate": {
                         "header": "Konfiguration inkompatibel",
                         "para_no_id": "Dieses Element hat keine ID. Bitte füge diesem Element eine ID in 'ui-lovelace.yaml' hinzu.",
-                        "para_migrate": "Home Assistant kann für alle Ihre Karten und Ansichten die IDs automatisch generieren, wenn Sie den \"Konfiguration migrieren\"-Button klicken.",
+                        "para_migrate": "E-Fonenana kann für alle Ihre Karten und Ansichten die IDs automatisch generieren, wenn Sie den \"Konfiguration migrieren\"-Button klicken.",
                         "migrate": "Konfiguration migrieren"
                     },
                     "header": "Benutzeroberfläche bearbeiten",
@@ -877,7 +877,7 @@
                     },
                     "save_config": {
                         "header": "Lovelace Userinterface selbst verwalten",
-                        "para": "Standardmäßig verwaltet Home Assistant Ihre Benutzeroberfläche und aktualisiert sie, sobald neue Entitäten oder Lovelace-Komponenten verfügbar sind. Wenn Sie die Verwaltung selbst übernehmen, nehmen wir für Sie keine Änderungen mehr vor.",
+                        "para": "Standardmäßig verwaltet E-Fonenana Ihre Benutzeroberfläche und aktualisiert sie, sobald neue Entitäten oder Lovelace-Komponenten verfügbar sind. Wenn Sie die Verwaltung selbst übernehmen, nehmen wir für Sie keine Änderungen mehr vor.",
                         "para_sure": "Bist du dir sicher, dass du die Benutzeroberfläche selbst verwalten möchtest?",
                         "cancel": "Abbrechen",
                         "save": "Kontrolle übernehmen"
@@ -1136,7 +1136,7 @@
         "vacuum": "Staubsauger",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "E-Fonenana",
         "lovelace": "Lovelace",
         "system_health": "Systemzustand",
         "person": "Person"

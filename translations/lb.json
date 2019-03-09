@@ -324,8 +324,8 @@
                 "delete_button": "Löschen"
             },
             "config": {
-                "header": "Home Assistant astellen",
-                "introduction": "Hei ass et méiglech är Komponenten vum Home Assistant ze konfiguréieren. Net alles ass méiglech fir iwwert den Interface anzestellen, mee mir schaffen drun.",
+                "header": "E-Fonenana astellen",
+                "introduction": "Hei ass et méiglech är Komponenten vum E-Fonenana ze konfiguréieren. Net alles ass méiglech fir iwwert den Interface anzestellen, mee mir schaffen drun.",
                 "core": {
                     "caption": "Generell",
                     "description": "Konfiguratioun validéieren an de Server kontrolléieren",
@@ -342,7 +342,7 @@
                             },
                             "reloading": {
                                 "heading": "Konfiguratioun gëtt frësch gelueden",
-                                "introduction": "E puer Deeler vum Home Assistant kënne frësch geluede ginn ouni datt een Neistart néideg ass. Klick op nei luede fir di aktuell Konfiguratioun z'entlueden an di nei Konfiguratioun ze lueden.",
+                                "introduction": "E puer Deeler vum E-Fonenana kënne frësch geluede ginn ouni datt een Neistart néideg ass. Klick op nei luede fir di aktuell Konfiguratioun z'entlueden an di nei Konfiguratioun ze lueden.",
                                 "core": "Kär nei lueden",
                                 "group": "Gruppe nei lueden",
                                 "automation": "Automatisme nei lueden",
@@ -350,7 +350,7 @@
                             },
                             "server_management": {
                                 "heading": "Serververwaltung",
-                                "introduction": "Kontrolléiert ären Home Assistant Server ... vun Home Assistant aus.",
+                                "introduction": "Kontrolléiert ären E-Fonenana Server ... vun E-Fonenana aus.",
                                 "restart": "Neistart",
                                 "stop": "Stop"
                             }
@@ -370,7 +370,7 @@
                     "description": "Automatisme erstellen an änneren",
                     "picker": {
                         "header": "Automatisme editéieren",
-                        "introduction": "Den Automatisme Editor erméiglecht et fir Automatismen z'erstellen an ze änneren. Liest w.e.g. [d'Instruktioune](https:\/\/home-assistant.io\/docs\/automation\/editor\/) fir sécher ze stellen dass den Home Assistant richteg agestallt ass.",
+                        "introduction": "Den Automatisme Editor erméiglecht et fir Automatismen z'erstellen an ze änneren. Liest w.e.g. [d'Instruktioune](https:\/\/home-assistant.io\/docs\/automation\/editor\/) fir sécher ze stellen dass den E-Fonenana richteg agestallt ass.",
                         "pick_automation": "Automatisme fir ze änneren auswielen",
                         "no_automations": "Keen Automatisme fir ze änneren fonnt",
                         "add_automation": "Automatisme dobäisetzen",
@@ -384,7 +384,7 @@
                         "alias": "Numm",
                         "triggers": {
                             "header": "Ausléiser",
-                            "introduction": "Een Ausléiser start de Prozess vun engem Automatisme. Et ass méiglech méi wéi een Ausléiser fir een Automatisme unzeginn. Wann een Ausléiser start validéiert Home Assistant d'Konditioune an, de Fall gesat, féiert eng Aktioun aus.\n\n[Léier méi iwwert Ausléiser.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Een Ausléiser start de Prozess vun engem Automatisme. Et ass méiglech méi wéi een Ausléiser fir een Automatisme unzeginn. Wann een Ausléiser start validéiert E-Fonenana d'Konditioune an, de Fall gesat, féiert eng Aktioun aus.\n\n[Léier méi iwwert Ausléiser.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Ausléiser dobäisetzen",
                             "duplicate": "Replikéieren",
                             "delete": "Läschen",
@@ -404,7 +404,7 @@
                                     "for": "Fir"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Evenement:",
                                     "start": "Starten",
                                     "shutdown": "Ausmaachen"
@@ -512,7 +512,7 @@
                         },
                         "actions": {
                             "header": "Aktiounen",
-                            "introduction": "Aktioune déi den Home Assistant ausféiert wann den Automatisme ausgeléist gouf.\n[Léier méi iwwert Aktioune.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Aktioune déi den E-Fonenana ausféiert wann den Automatisme ausgeléist gouf.\n[Léier méi iwwert Aktioune.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Aktioun dobäisetzen",
                             "duplicate": "Replikéiere",
                             "delete": "Läschen",
@@ -577,7 +577,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "Ageloggt als {email}",
                     "description_not_login": "Net ageloggt"
                 },
@@ -593,7 +593,7 @@
                         "no_devices": "Dës Integratioun huet keng Apparater.",
                         "no_device": "Entitéiten ouni Apparater",
                         "delete_confirm": "Sécher fir dës Integratioun ze läsche?",
-                        "restart_confirm": "Start Home Assistant nei fir dës Integratioun ze läschen",
+                        "restart_confirm": "Start E-Fonenana nei fir dës Integratioun ze läschen",
                         "manuf": "vun {manufacturer}",
                         "hub": "Verbonnen via",
                         "firmware": "Firmware: {version}",
@@ -614,7 +614,7 @@
                     "description": "Iwwersiicht vun de Beräicher am Haus",
                     "picker": {
                         "header": "Lëscht vun de Beräicher",
-                        "introduction": "Beräicher gi benotzt fir d'Organisatioun vum Standuert vun den Apparater. Dës Informatioun gëtt vum Home Assistant benotzt fir iech ze hëllefe fir den Interface, Berechtegungen an Integratioune mat aner Systemer ze geréieren.",
+                        "introduction": "Beräicher gi benotzt fir d'Organisatioun vum Standuert vun den Apparater. Dës Informatioun gëtt vum E-Fonenana benotzt fir iech ze hëllefe fir den Interface, Berechtegungen an Integratioune mat aner Systemer ze geréieren.",
                         "introduction2": "Fir Apparater an e Beräich ze setzen, benotzt de Link ënne fir op d'Integratiouns Säit ze kommen a klickt do op eng konfiguréiert Integratioun fir d'Kaart vum Apparat unzeweisen.",
                         "integrations_page": "Integratiouns Säit"
                     },
@@ -633,8 +633,8 @@
                     "picker": {
                         "header": "Lëscht vun den Entitéiten",
                         "unavailable": "(net verfügbar)",
-                        "introduction": "Home Assistant hält eng Lëscht vun all Entitéit's ID déi eenzel erkennbar ass a bis elo vum System erkannt gouf. All eenzel vun dësen Entitéite kritt eng ID zougewise welch nëmme fir dës Entitéit reservéiert ass.",
-                        "introduction2": "Benotzt d'Lëscht vun den Entitéite fir d'Nimm z'änneren, d'Entitéits ID z'änneren oder d'Entrée aus dem Home Assistant ze läschen. Remarque: Läsche vun der Entitéit aus der Lëscht läscht d'Entitéit selwer net. Fir dës ze läsche follegt dem Link ënnen a läscht et op der Integratiouns Säit.",
+                        "introduction": "E-Fonenana hält eng Lëscht vun all Entitéit's ID déi eenzel erkennbar ass a bis elo vum System erkannt gouf. All eenzel vun dësen Entitéite kritt eng ID zougewise welch nëmme fir dës Entitéit reservéiert ass.",
+                        "introduction2": "Benotzt d'Lëscht vun den Entitéite fir d'Nimm z'änneren, d'Entitéits ID z'änneren oder d'Entrée aus dem E-Fonenana ze läschen. Remarque: Läsche vun der Entitéit aus der Lëscht läscht d'Entitéit selwer net. Fir dës ze läsche follegt dem Link ënnen a läscht et op der Integratiouns Säit.",
                         "integrations_page": "Integratiouns Säit"
                     },
                     "editor": {
@@ -646,7 +646,7 @@
                 },
                 "person": {
                     "caption": "Persounen",
-                    "description": "Verwalt d'Persoune déi vum Home Assistant suivéiert ginn.",
+                    "description": "Verwalt d'Persoune déi vum E-Fonenana suivéiert ginn.",
                     "detail": {
                         "name": "Numm",
                         "device_tracker_intro": "Wiel d'Apparater aus déi zu dëser Persoun gehéieren.",
@@ -688,7 +688,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Lang gëlteg Accèss Jetone",
-                    "description": "Erstellt laang gëlteg Accèss Jetone déi et äre Skripten erlabe mat ärem Home Assistant z'interagéieren. All eenzelen Jeton ass gëlteg fir 10 Joer. Folgend Accèss Jeton sinn am Moment aktiv.",
+                    "description": "Erstellt laang gëlteg Accèss Jetone déi et äre Skripten erlabe mat ärem E-Fonenana z'interagéieren. All eenzelen Jeton ass gëlteg fir 10 Joer. Folgend Accèss Jeton sinn am Moment aktiv.",
                     "learn_auth_requests": "Leiert wéi een \"authenticated requests\" erstellt.",
                     "created_at": "Erstallt um {date}",
                     "confirm_delete": "Sécher fir den Accèss Jeton fir {name} ze läsche?",
@@ -728,7 +728,7 @@
             },
             "page-authorize": {
                 "initializing": "Initialiséiert",
-                "authorizing_client": "Dir gitt elo {clientId} Zougang zu ärem Home Assistant.",
+                "authorizing_client": "Dir gitt elo {clientId} Zougang zu ärem E-Fonenana.",
                 "logging_in_with": "Verbannt iech mat **{authProviderName}**.",
                 "pick_auth_provider": "Oder verbannt iech mat",
                 "abort_intro": "Login ofgebrach",
@@ -865,7 +865,7 @@
                     "migrate": {
                         "header": "Konfiguratioun net kompatibel",
                         "para_no_id": "Dëst Element huet keng ID. Definéiert w.e.g. eng ID fir dëst Element am 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant kann ID's zu all äre Kaarten automatesch dobäisetzen andeem dir de Knäppche 'Konfiguratioun migréieren' dréckt.",
+                        "para_migrate": "E-Fonenana kann ID's zu all äre Kaarten automatesch dobäisetzen andeem dir de Knäppche 'Konfiguratioun migréieren' dréckt.",
                         "migrate": "Konfiguratioun migréieren"
                     },
                     "header": "UI änneren",
@@ -877,7 +877,7 @@
                     },
                     "save_config": {
                         "header": "Kontroll iwwert Loveloce UI iwwerhuelen",
-                        "para": "Standardméisseg verwalt Home Assistant de Benotzer Interface an aktualiséiert en soubal nei Entitéiten oder Lovelace-Komponenten disponibel sinn. Wann dir d'Kontrolle iwwerhuelt, kënne mir keng automatesch Ännerung méi fir iech maachen.",
+                        "para": "Standardméisseg verwalt E-Fonenana de Benotzer Interface an aktualiséiert en soubal nei Entitéiten oder Lovelace-Komponenten disponibel sinn. Wann dir d'Kontrolle iwwerhuelt, kënne mir keng automatesch Ännerung méi fir iech maachen.",
                         "para_sure": "Sécher fir d'Kontrolle iwwert de Benotzer Interface z'iwwerhuelen?",
                         "cancel": "Vergiess et",
                         "save": "Kontroll iwwerhuelen"
@@ -1136,7 +1136,7 @@
         "vacuum": "Staubsauger",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "E-Fonenana",
         "lovelace": "Lovelace",
         "system_health": "System Zoustand",
         "person": "Persoun"

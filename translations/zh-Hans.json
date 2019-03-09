@@ -324,8 +324,8 @@
                 "delete_button": "删除"
             },
             "config": {
-                "header": "配置 Home Assistant",
-                "introduction": "你可以在此配置 Home Assistant 及组件。目前并非所有配置都能通过前端 UI 完成，但是我们在努力实现中。",
+                "header": "配置 E-Fonenana",
+                "introduction": "你可以在此配置 E-Fonenana 及组件。目前并非所有配置都能通过前端 UI 完成，但是我们在努力实现中。",
                 "core": {
                     "caption": "通用",
                     "description": "检查你的配置文件及服务器控制",
@@ -342,7 +342,7 @@
                             },
                             "reloading": {
                                 "heading": "配置重载",
-                                "introduction": "Home Assistant 中的部分配置可以直接重载，而无需重启服务。点击重载按钮将重新载入新的配置。",
+                                "introduction": "E-Fonenana 中的部分配置可以直接重载，而无需重启服务。点击重载按钮将重新载入新的配置。",
                                 "core": "重载核心配置",
                                 "group": "重载分组",
                                 "automation": "重载自动化",
@@ -350,7 +350,7 @@
                             },
                             "server_management": {
                                 "heading": "服务管理",
-                                "introduction": "在这里即可控制 Home Assistant 服务。",
+                                "introduction": "在这里即可控制 E-Fonenana 服务。",
                                 "restart": "重启服务",
                                 "stop": "停止服务"
                             }
@@ -384,7 +384,7 @@
                         "alias": "名称",
                         "triggers": {
                             "header": "触发条件",
-                            "introduction": "触发条件是整个自动化流程的起点。一个自动化实例中可以设置多个触发条件。一旦该条件满足，Home Assistant 将验证环境条件（Conditions）是否符合，如果符合，则执行动作（Actions）。\n\n[了解更多内容](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "触发条件是整个自动化流程的起点。一个自动化实例中可以设置多个触发条件。一旦该条件满足，E-Fonenana 将验证环境条件（Conditions）是否符合，如果符合，则执行动作（Actions）。\n\n[了解更多内容](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "添加触发条件",
                             "duplicate": "复制",
                             "delete": "删除",
@@ -404,7 +404,7 @@
                                     "for": "持续"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "事件：",
                                     "start": "启动",
                                     "shutdown": "关闭"
@@ -512,7 +512,7 @@
                         },
                         "actions": {
                             "header": "动作",
-                            "introduction": "Actions（动作）是当自动化条件满足时 Home Assistant 执行的操作。\n\n[了解更多关于 Actions 的信息](https:\/\/home-assistant.io\/docs\/automation\/action)",
+                            "introduction": "Actions（动作）是当自动化条件满足时 E-Fonenana 执行的操作。\n\n[了解更多关于 Actions 的信息](https:\/\/home-assistant.io\/docs\/automation\/action)",
                             "add": "添加动作",
                             "duplicate": "复制",
                             "delete": "删除",
@@ -577,7 +577,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "登录为 {email}",
                     "description_not_login": "未登录"
                 },
@@ -593,7 +593,7 @@
                         "no_devices": "此集成没有设备。",
                         "no_device": "无设备关联的实体",
                         "delete_confirm": "您确定要删除此集成吗？",
-                        "restart_confirm": "重启 Home Assistant 以完成此集成的删除",
+                        "restart_confirm": "重启 E-Fonenana 以完成此集成的删除",
                         "manuf": "by {manufacturer}",
                         "hub": "链接于",
                         "firmware": "固件：{version}",
@@ -614,7 +614,7 @@
                     "description": "您家中所有区域的概览。",
                     "picker": {
                         "header": "区域注册表",
-                        "introduction": "区域用于组织设备所在的位置。此信息将用于 Home Assistant 的各个地方，以帮助您组织界面、权限和与其他系统的集成。",
+                        "introduction": "区域用于组织设备所在的位置。此信息将用于 E-Fonenana 的各个地方，以帮助您组织界面、权限和与其他系统的集成。",
                         "introduction2": "要将设备置入某个区域，请使用下面的链接导航到集成页面，然后点击一个已配置的集成以进入设备卡片。",
                         "integrations_page": "集成页面"
                     },
@@ -633,8 +633,8 @@
                     "picker": {
                         "header": "实体注册表",
                         "unavailable": "(不可用)",
-                        "introduction": "Home Assistant 将会以唯一标识的形式记录发现的每个实体。这些实体被各自分配一个实体 ID，仅保留给对应实体。",
-                        "introduction2": "使用本实体注册工具重写名称，修改实体 ID 或者从 Home Assistant 删除实体。注意，删除实体注册信息并不会删除实体本身。如果要删除实体，请点击下面的链接进入集成页面进行操作。",
+                        "introduction": "E-Fonenana 将会以唯一标识的形式记录发现的每个实体。这些实体被各自分配一个实体 ID，仅保留给对应实体。",
+                        "introduction2": "使用本实体注册工具重写名称，修改实体 ID 或者从 E-Fonenana 删除实体。注意，删除实体注册信息并不会删除实体本身。如果要删除实体，请点击下面的链接进入集成页面进行操作。",
                         "integrations_page": "集成页面"
                     },
                     "editor": {
@@ -646,7 +646,7 @@
                 },
                 "person": {
                     "caption": "人员",
-                    "description": "管理 Home Assistant 跟踪的人员。",
+                    "description": "管理 E-Fonenana 跟踪的人员。",
                     "detail": {
                         "name": "名字",
                         "device_tracker_intro": "选择属于此人的设备。",
@@ -688,7 +688,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "长期访问令牌",
-                    "description": "创建长期访问令牌以允许脚本与 Home Assistant 实例进行交互。每个令牌在创建后有效期为 10 年。以下是处于激活状态的长期访问令牌。",
+                    "description": "创建长期访问令牌以允许脚本与 E-Fonenana 实例进行交互。每个令牌在创建后有效期为 10 年。以下是处于激活状态的长期访问令牌。",
                     "learn_auth_requests": "了解如何创建经过身份验证的请求。",
                     "created_at": "创建于 {date}",
                     "confirm_delete": "确定要删除 {name} 的访问令牌吗？",
@@ -728,7 +728,7 @@
             },
             "page-authorize": {
                 "initializing": "正在初始化",
-                "authorizing_client": "您即将授权 {clientId} 访问 Home Assistant 实例。",
+                "authorizing_client": "您即将授权 {clientId} 访问 E-Fonenana 实例。",
                 "logging_in_with": "正在用 **{authProviderName}** 登录。",
                 "pick_auth_provider": "或者用以下方式登录",
                 "abort_intro": "登录中断",
@@ -865,7 +865,7 @@
                     "migrate": {
                         "header": "配置不兼容",
                         "para_no_id": "此元素没有 ID。请在 'ui-lovelace.yaml' 中为此元素添加 ID。",
-                        "para_migrate": "通过点击“迁移配置”按钮，Home Assistant 可以自动为您的所有卡片和视图添加 ID。",
+                        "para_migrate": "通过点击“迁移配置”按钮，E-Fonenana 可以自动为您的所有卡片和视图添加 ID。",
                         "migrate": "迁移配置"
                     },
                     "header": "编辑 UI",
@@ -877,7 +877,7 @@
                     },
                     "save_config": {
                         "header": "自行编辑您的 Lovelace UI",
-                        "para": "默认情况下，Home Assistant 将维护您的用户界面，并在新的实体或 Lovelace 组件可用时更新它。如果您选择自行编辑，我们将不再自动为您进行更改。",
+                        "para": "默认情况下，E-Fonenana 将维护您的用户界面，并在新的实体或 Lovelace 组件可用时更新它。如果您选择自行编辑，我们将不再自动为您进行更改。",
                         "para_sure": "您确定要自行编辑用户界面吗？",
                         "cancel": "没关系",
                         "save": "自行编辑"
@@ -1136,7 +1136,7 @@
         "vacuum": "扫地机",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "E-Fonenana",
         "lovelace": "Lovelace",
         "system_health": "系统状态",
         "person": "个人"

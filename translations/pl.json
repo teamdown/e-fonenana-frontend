@@ -324,8 +324,8 @@
                 "delete_button": "Usunąć"
             },
             "config": {
-                "header": "Konfiguruj Home Assistant'a",
-                "introduction": "Tutaj można skonfigurować komponenty i Home Assistant'a. Nie wszystko jest możliwe do skonfigurowania z interfejsu użytkownika, ale pracujemy nad tym.",
+                "header": "Konfiguruj E-Fonenana'a",
+                "introduction": "Tutaj można skonfigurować komponenty i E-Fonenana'a. Nie wszystko jest możliwe do skonfigurowania z interfejsu użytkownika, ale pracujemy nad tym.",
                 "core": {
                     "caption": "Ogólne",
                     "description": "Sprawdź poprawność pliku konfiguracyjnego i kontroluj serwer",
@@ -342,7 +342,7 @@
                             },
                             "reloading": {
                                 "heading": "Przeładowanie konfiguracji",
-                                "introduction": "Niektóre części Home Assistant'a można przeładować bez konieczności ponownego uruchomienia. Kliknięcie przeładuj spowoduje ponowne wczytanie konfiguracji.",
+                                "introduction": "Niektóre części E-Fonenana'a można przeładować bez konieczności ponownego uruchomienia. Kliknięcie przeładuj spowoduje ponowne wczytanie konfiguracji.",
                                 "core": "Przeładuj rdzeń",
                                 "group": "Przeładuj grupy",
                                 "automation": "Przeładuj automatyzacje",
@@ -350,7 +350,7 @@
                             },
                             "server_management": {
                                 "heading": "Zarządzanie serwerem",
-                                "introduction": "Kontroluj swój serwer Home Assistant",
+                                "introduction": "Kontroluj swój serwer E-Fonenana",
                                 "restart": "Uruchom ponownie",
                                 "stop": "Zatrzymaj"
                             }
@@ -370,7 +370,7 @@
                     "description": "Twórz i edytuj reguły automatyzacji",
                     "picker": {
                         "header": "Edytor automatyzacji",
-                        "introduction": "Edytor automatyzacji pozwala tworzyć i edytować reguły automatyzacji. Przeczytaj [instrukcje](https:\/\/home-assistant.io\/docs\/automation\/editor\/), aby upewnić się, że poprawnie skonfigurowałeś Home Assistant'a.",
+                        "introduction": "Edytor automatyzacji pozwala tworzyć i edytować reguły automatyzacji. Przeczytaj [instrukcje](https:\/\/home-assistant.io\/docs\/automation\/editor\/), aby upewnić się, że poprawnie skonfigurowałeś E-Fonenana'a.",
                         "pick_automation": "Wybierz regułę automatyzacji do edycji",
                         "no_automations": "Nie znaleziono żadnych edytowalnych reguł automatyzacji",
                         "add_automation": "Dodaj regułę automatyzacji",
@@ -384,7 +384,7 @@
                         "alias": "Nazwa",
                         "triggers": {
                             "header": "Wyzwalacze",
-                            "introduction": "Wyzwalacze uruchamiają przetwarzanie reguły automatyzacji. Możliwe jest określenie wielu wyzwalaczy dla tej samej reguły. Po uruchomieniu wyzwalacza Home Assistant potwierdzi ewentualne warunki i wywoła akcję. \n\n[Dowiedz się więcej o wyzwalaczach.](Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Wyzwalacze uruchamiają przetwarzanie reguły automatyzacji. Możliwe jest określenie wielu wyzwalaczy dla tej samej reguły. Po uruchomieniu wyzwalacza E-Fonenana potwierdzi ewentualne warunki i wywoła akcję. \n\n[Dowiedz się więcej o wyzwalaczach.](Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Dodaj wyzwalacz",
                             "duplicate": "Duplikuj",
                             "delete": "Usuń",
@@ -404,7 +404,7 @@
                                     "for": "Przez"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Zdarzenie:",
                                     "start": "uruchomienie",
                                     "shutdown": "zakończenie"
@@ -512,7 +512,7 @@
                         },
                         "actions": {
                             "header": "Akcje",
-                            "introduction": "Akcje są wykonywane przez Home Assistant'a po uruchomieniu automatyki. \n\n[Dowiedz się więcej o akcjach.](Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Akcje są wykonywane przez E-Fonenana'a po uruchomieniu automatyki. \n\n[Dowiedz się więcej o akcjach.](Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Dodaj akcję",
                             "duplicate": "Duplikuj",
                             "delete": "Usuń",
@@ -577,7 +577,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Chmura Home Assistant",
+                    "caption": "Chmura E-Fonenana",
                     "description_login": "Zalogowany jako {email}",
                     "description_not_login": "Nie zalogowany"
                 },
@@ -593,7 +593,7 @@
                         "no_devices": "Ta integracja nie ma żadnych urządzeń.",
                         "no_device": "Encje bez urządzeń",
                         "delete_confirm": "Czy na pewno chcesz usunąć tę integrację?",
-                        "restart_confirm": "Zrestartuj Home Assistant'a, aby zakończyć usuwanie tej integracji",
+                        "restart_confirm": "Zrestartuj E-Fonenana'a, aby zakończyć usuwanie tej integracji",
                         "manuf": "przez: {manufacturer}",
                         "hub": "Połączony przez",
                         "firmware": "Oprogramowanie: {version}",
@@ -614,7 +614,7 @@
                     "description": "Przegląd wszystkich lokalizacji w twoim domu.",
                     "picker": {
                         "header": "Rejestr lokalizacji",
-                        "introduction": "Obszary służą do organizacji urządzeń. Informacje te będą używane w Home Assistant, aby pomóc w organizacji interfejsu, uprawnień i integracji z innymi systemami.",
+                        "introduction": "Obszary służą do organizacji urządzeń. Informacje te będą używane w E-Fonenana, aby pomóc w organizacji interfejsu, uprawnień i integracji z innymi systemami.",
                         "introduction2": "Aby umieścić urządzenia w danym obszarze, użyj poniższego linku, aby przejść do strony integracji, a następnie kliknij na skonfigurowaną integrację, aby dostać się do kart urządzeń.",
                         "integrations_page": "Strona integracji"
                     },
@@ -633,8 +633,8 @@
                     "picker": {
                         "header": "Rejestr encji",
                         "unavailable": "(niedostępna)",
-                        "introduction": "Home Assistant prowadzi rejestr każdego podmiotu, jaki kiedykolwiek widział, i który można jednoznacznie zidentyfikować. Każda z tych jednostek będzie miała przypisany identyfikator podmiotu, który będzie zarezerwowany tylko dla tego podmiotu.",
-                        "introduction2": "Użyj rejestru jednostek, aby nadpisać nazwę, zmienić identyfikator jednostki lub usunąć wpis z Home Assistant. Uwaga: usunięcie wpisu rejestru jednostki nie spowoduje usunięcia encji. Aby to zrobić, kliknij poniższy link i usuń go ze strony integracji.",
+                        "introduction": "E-Fonenana prowadzi rejestr każdego podmiotu, jaki kiedykolwiek widział, i który można jednoznacznie zidentyfikować. Każda z tych jednostek będzie miała przypisany identyfikator podmiotu, który będzie zarezerwowany tylko dla tego podmiotu.",
+                        "introduction2": "Użyj rejestru jednostek, aby nadpisać nazwę, zmienić identyfikator jednostki lub usunąć wpis z E-Fonenana. Uwaga: usunięcie wpisu rejestru jednostki nie spowoduje usunięcia encji. Aby to zrobić, kliknij poniższy link i usuń go ze strony integracji.",
                         "integrations_page": "Strona integracji"
                     },
                     "editor": {
@@ -646,7 +646,7 @@
                 },
                 "person": {
                     "caption": "Osoby",
-                    "description": "Zarządzaj osobami, które śledzi Home Assistant.",
+                    "description": "Zarządzaj osobami, które śledzi E-Fonenana.",
                     "detail": {
                         "name": "Imię",
                         "device_tracker_intro": "Wybierz urządzenia należące do tej osoby.",
@@ -688,7 +688,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Tokeny dostępu",
-                    "description": "Długoterminowe tokeny dostępu umożliwiają skryptom interakcję z Home Assistant. Każdy token będzie ważny przez 10 lat od utworzenia. Następujące tokeny są obecnie aktywne.",
+                    "description": "Długoterminowe tokeny dostępu umożliwiają skryptom interakcję z E-Fonenana. Każdy token będzie ważny przez 10 lat od utworzenia. Następujące tokeny są obecnie aktywne.",
                     "learn_auth_requests": "Dowiedz się, jak tworzyć uwierzytelnione żądania.",
                     "created_at": "Utworzony {date}",
                     "confirm_delete": "Czy na pewno chcesz usunąć token dla {name}?",
@@ -728,7 +728,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicjowanie",
-                "authorizing_client": "Czy na pewno chcesz dać dostęp {clientId} do Twojej instancji Home Assistant'a.",
+                "authorizing_client": "Czy na pewno chcesz dać dostęp {clientId} do Twojej instancji E-Fonenana'a.",
                 "logging_in_with": "Logowanie za pomocą **{authProviderName}**.",
                 "pick_auth_provider": "Lub zaloguj się za pomocą",
                 "abort_intro": "Logowanie przerwane",
@@ -865,7 +865,7 @@
                     "migrate": {
                         "header": "Konfiguracja niekompatybilna",
                         "para_no_id": "Ten element nie ma ID. Dodaj ID do tego elementu w \"ui-lovelace.yaml\".",
-                        "para_migrate": "Home Assistant może automatycznie dodać ID do wszystkich twoich kart i widoków, po kliknięciu przycisku \"Migracja konfiguracji\".",
+                        "para_migrate": "E-Fonenana może automatycznie dodać ID do wszystkich twoich kart i widoków, po kliknięciu przycisku \"Migracja konfiguracji\".",
                         "migrate": "Migracja konfiguracji"
                     },
                     "header": "Edycja interfejsu użytkownika",
@@ -877,7 +877,7 @@
                     },
                     "save_config": {
                         "header": "Przejmij kontrolę nad interfejsem użytkownika Lovelace",
-                        "para": "Domyślnie Home Assistant będzie zarządzać interfejsem użytkownika, aktualizując go, gdy pojawią się nowe encje lub komponenty Lovelace. Jeśli przejmiesz kontrolę, Home Assistant nie będzie już automatycznie wprowadzać dla ciebie zmian.",
+                        "para": "Domyślnie E-Fonenana będzie zarządzać interfejsem użytkownika, aktualizując go, gdy pojawią się nowe encje lub komponenty Lovelace. Jeśli przejmiesz kontrolę, E-Fonenana nie będzie już automatycznie wprowadzać dla ciebie zmian.",
                         "para_sure": "Czy na pewno chcesz przejąć kontrolę nad interfejsem użytkownika?",
                         "cancel": "Nieważne",
                         "save": "Przejmuję kontrolę"
@@ -1136,7 +1136,7 @@
         "vacuum": "Odkurzacz",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "E-Fonenana",
         "lovelace": "Lovelace",
         "system_health": "Kondycja systemu",
         "person": "Osoba"

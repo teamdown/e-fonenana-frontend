@@ -160,7 +160,7 @@ class HassioSnapshots extends EventsMixin(PolymerElement) {
         value: [
           {
             slug: "homeassistant",
-            name: "Home Assistant configuration",
+            name: "E-Fonenana configuration",
             checked: true,
           },
           { slug: "ssl", name: "SSL", checked: true },

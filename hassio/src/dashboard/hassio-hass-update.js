@@ -31,7 +31,7 @@ class HassioHassUpdate extends PolymerElement {
               <div class="card-content">
                 <hassio-card-content
                   hass="[[hass]]"
-                  title="Home Assistant [[hassInfo.last_version]] is available"
+                  title="E-Fonenana [[hassInfo.last_version]] is available"
                   description="You are currently running version [[hassInfo.version]]"
                   icon="hassio:home-assistant"
                   icon-class="hassupdate"

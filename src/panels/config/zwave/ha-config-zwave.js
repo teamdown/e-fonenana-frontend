@@ -286,7 +286,7 @@ class HaConfigZwave extends LocalizeMixin(EventsMixin(PolymerElement)) {
                     checked="{{entityIgnored}}"
                     class="form-control"
                   >
-                    Exclude this entity from Home Assistant
+                    Exclude this entity from E-Fonenana
                   </paper-checkbox>
                   <paper-input
                     disabled="{{entityIgnored}}"

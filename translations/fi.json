@@ -322,8 +322,8 @@
                 "delete_button": "Poista"
             },
             "config": {
-                "header": "Säädä Home Assistanttia",
-                "introduction": "Täällä voit säätää Home Assistanttia ja sen komponentteja. Huomioithan, ettei kaikkea voi vielä säätää käyttöliittymän kautta, mutta teemme jatkuvasti töitä sen mahdollistamiseksi.",
+                "header": "Säädä E-Fonenanatia",
+                "introduction": "Täällä voit säätää E-Fonenanatia ja sen komponentteja. Huomioithan, ettei kaikkea voi vielä säätää käyttöliittymän kautta, mutta teemme jatkuvasti töitä sen mahdollistamiseksi.",
                 "core": {
                     "caption": "Yleinen",
                     "description": "Tarkista asetustiedostosi ja hallitse palvelinta",
@@ -340,7 +340,7 @@
                             },
                             "reloading": {
                                 "heading": "Asetusten uudelleenlataus",
-                                "introduction": "Jotkut Home Assistantin osat voidaan ladata ilman uudelleenkäynnistystä. Allaolevilla painikkeilla saat ladattua uudelleen yksittäisiä kategorioita.",
+                                "introduction": "Jotkut E-Fonenanain osat voidaan ladata ilman uudelleenkäynnistystä. Allaolevilla painikkeilla saat ladattua uudelleen yksittäisiä kategorioita.",
                                 "core": "Lataa ydin uudelleen",
                                 "group": "Lataa ryhmät uudelleen",
                                 "automation": "Lataa automaatiot uudelleen",
@@ -348,7 +348,7 @@
                             },
                             "server_management": {
                                 "heading": "Palvelimen hallinta",
-                                "introduction": "Hallitse Home Assistantia... suoraan Home Assistantista",
+                                "introduction": "Hallitse E-Fonenanaia... suoraan E-Fonenanaista",
                                 "restart": "Käynnistä uudelleen",
                                 "stop": "Pysäytä"
                             }
@@ -378,7 +378,7 @@
                         "alias": "Nimi",
                         "triggers": {
                             "header": "Laukaisuehdot",
-                            "introduction": "Laukaisuehdot määrittelevät, milloin automaatiota aletaan suorittaa. Samassa säännössä voi olla useita laukaisuehtoja. Kun laukaisuehto täyttyy, Home Assistant varmistaa ehdot. Jos ehdot täyttyvät, toiminto suoritetaan.\n\n[Lue lisää laukaisuehdoista (englanniksi).](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Laukaisuehdot määrittelevät, milloin automaatiota aletaan suorittaa. Samassa säännössä voi olla useita laukaisuehtoja. Kun laukaisuehto täyttyy, E-Fonenana varmistaa ehdot. Jos ehdot täyttyvät, toiminto suoritetaan.\n\n[Lue lisää laukaisuehdoista (englanniksi).](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Laukaisuehto",
                             "duplicate": "Kopioi",
                             "delete": "Poista",
@@ -398,7 +398,7 @@
                                     "for": "Ajaksi"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Tapahtuma:",
                                     "start": "Käynnistys",
                                     "shutdown": "Sammutus"
@@ -492,7 +492,7 @@
                         },
                         "actions": {
                             "header": "Toiminnot",
-                            "introduction": "Home Assistant suorittaa toiminnot, kun automaatio laukaistaan.\n\n[Opi lisää toiminnoista (englanniksi).](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "E-Fonenana suorittaa toiminnot, kun automaatio laukaistaan.\n\n[Opi lisää toiminnoista (englanniksi).](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Lisää toiminto",
                             "duplicate": "Kopioi",
                             "delete": "Poista",
@@ -557,7 +557,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "Kirjautunut sisään {email}",
                     "description_not_login": "Et ole kirjautunut"
                 },
@@ -573,7 +573,7 @@
                         "no_devices": "Tällä integraatiolla ei ole laitteita.",
                         "no_device": "Kokonaisuudet ilman laitteita",
                         "delete_confirm": "Haluatko varmasti poistaa tämän integraation?",
-                        "restart_confirm": "Käynnistä Home Assistant uudellen viimeistelläksesi tämän integraation poistamisen",
+                        "restart_confirm": "Käynnistä E-Fonenana uudellen viimeistelläksesi tämän integraation poistamisen",
                         "manuf": "{manufacturer}",
                         "hub": "Yhdistetty kautta",
                         "firmware": "Laiteohjelmisto: {version}",
@@ -668,7 +668,7 @@
             },
             "page-authorize": {
                 "initializing": "Alustetaan",
-                "authorizing_client": "Olet antamassa pääsyn {clientId} Home Assistant ympäristöösi.",
+                "authorizing_client": "Olet antamassa pääsyn {clientId} E-Fonenana ympäristöösi.",
                 "logging_in_with": "Kirjaudutaan sisään **{authProviderName}**.",
                 "pick_auth_provider": "Tai kirjaudu sisään joillakin seuraavista",
                 "abort_intro": "Kirjautuminen on keskeytetty",
@@ -793,7 +793,7 @@
                     "migrate": {
                         "header": "Epäkelvot asetukset",
                         "para_no_id": "Elementillä ei ole ID. Lisää ID elementille 'ui-lovelace.yaml'-tiedostossa.",
-                        "para_migrate": "Home Assistant voi lisätä ID:t kaikkiin kortteihisi ja näkymiin automaattisesti painamalla 'Tuo vanhat asetukset'-nappia.",
+                        "para_migrate": "E-Fonenana voi lisätä ID:t kaikkiin kortteihisi ja näkymiin automaattisesti painamalla 'Tuo vanhat asetukset'-nappia.",
                         "migrate": "Tuo vanhat asetukset"
                     },
                     "header": "Muokkaa käyttöliittymää",
@@ -805,7 +805,7 @@
                     },
                     "save_config": {
                         "header": "Hallitse Lovelace käyttöliittymääsi",
-                        "para": "Oletuksena Home Assistant ylläpitää käyttöliittymääsi, päivittäen sitä uusien yksiköiden tai Lovelace komponenttien tullessa saataville. Jos muokkaat käyttöliittymääsi, emme enää tee muutoksia automaattisesti.",
+                        "para": "Oletuksena E-Fonenana ylläpitää käyttöliittymääsi, päivittäen sitä uusien yksiköiden tai Lovelace komponenttien tullessa saataville. Jos muokkaat käyttöliittymääsi, emme enää tee muutoksia automaattisesti.",
                         "para_sure": "Oletko varma, että haluat ottaa haltuun käyttöliittymän?",
                         "cancel": "Antaa olla",
                         "save": "Ota hallintaan"

@@ -324,7 +324,7 @@
                 "delete_button": "ลบ"
             },
             "config": {
-                "header": "การตั้งค่า Home Assistant",
+                "header": "การตั้งค่า E-Fonenana",
                 "introduction": "ดูสิ! มันเป็นไปได้ที่คุณจะกำหนดค่าส่วนประกอบต่างๆ ของคุณได้รวมถึงส่วนระบบเชียวนะ! แต่ตอนนี้ยังไม่รวมพวกการแสดงผลต่างๆ นะ แต่เรากำลังพัฒนามันอยู่ คงจะใช้ได้เร็วๆ นี้ละ",
                 "core": {
                     "caption": "ทั่วไป",
@@ -350,7 +350,7 @@
                             },
                             "server_management": {
                                 "heading": "การจัดการเซิร์ฟเวอร์",
-                                "introduction": "สำหรับควบคุมเซิร์ฟเวอร์ Home Assistant อีกทีนึงจาก Home Assistant อีกที",
+                                "introduction": "สำหรับควบคุมเซิร์ฟเวอร์ E-Fonenana อีกทีนึงจาก E-Fonenana อีกที",
                                 "restart": "เริ่มต้นใหม่",
                                 "stop": "หยุด"
                             }
@@ -369,7 +369,7 @@
                     "description": "สร้างและแก้ไขระบบอัตโนมัติ",
                     "picker": {
                         "header": "เครื่องมือแก้ไข ระบบอัตโนมัติ",
-                        "introduction": "ตัวแก้ไขอัตโนมัติช่วยให้คุณสามารถสร้างและแก้ไขระบบอัตโนมัติได้. \nโปรดอ่าน [คำแนะนำ] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) เพื่อให้แน่ใจว่าคุณได้กำหนดค่า Home Assistant อย่างถูกต้อง.",
+                        "introduction": "ตัวแก้ไขอัตโนมัติช่วยให้คุณสามารถสร้างและแก้ไขระบบอัตโนมัติได้. \nโปรดอ่าน [คำแนะนำ] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) เพื่อให้แน่ใจว่าคุณได้กำหนดค่า E-Fonenana อย่างถูกต้อง.",
                         "pick_automation": "เลือกระบบอัตโนมัติเพื่อแก้ไข",
                         "no_automations": "เราไม่พบระบบอัตโนมัติใด ๆ สามารถแก้ไขได้",
                         "add_automation": "เพิ่มระบบอัตโนมัติ",
@@ -403,7 +403,7 @@
                                     "for": "ถึง"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "เหตุการณ์:",
                                     "start": "เริ่มต้น",
                                     "shutdown": "ปิด"
@@ -576,7 +576,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "ลงชื่อเข้าใช้เป็น {email}",
                     "description_not_login": "ยังไม่ได้เข้าสู่ระบบ"
                 },
@@ -592,7 +592,7 @@
                         "no_devices": "การทำงานร่วมกันนี้ไม่มีอุปกรณ์ใดๆ อยู่เลย",
                         "no_device": "เป็น Entities โดยไม่มีอุปกรณ์",
                         "delete_confirm": "แน่ใจหรือว่าต้องการจะลบการบูรณาการนี้",
-                        "restart_confirm": "เริ่ม Home Assistant ใหม่หลังจากลบการบูรณาการนี้",
+                        "restart_confirm": "เริ่ม E-Fonenana ใหม่หลังจากลบการบูรณาการนี้",
                         "manuf": "โดย {manufacturer}",
                         "hub": "เชื่อมต่อแล้ว",
                         "firmware": "Firmware: {version}",
@@ -610,7 +610,7 @@
                     "description": "ภาพรวมของพื้นที่ทั้งหมดในบ้านของคุณ",
                     "picker": {
                         "header": "ค่าของพื้นที่",
-                        "introduction": "Areas are used to organize where devices are. This information will be used throughout Home Assistant to help you in organizing your interface, permissions and integrations with other systems.",
+                        "introduction": "Areas are used to organize where devices are. This information will be used throughout E-Fonenana to help you in organizing your interface, permissions and integrations with other systems.",
                         "introduction2": "สำหรับการวางอุปกรณ์นี้ลงในพื้นที่นี้ ใช้ลิงค์ด้านล่างเพื่อไปยังหน้า 'การทำงานร่วมกัน' และคลิ๊กทีุ่่ม 'ตั้งค่าให้ทำงานร่วมกัน' เพื่อที่จะให้แสดงการ์ดสำหรับอุปกรณ์นั้น",
                         "integrations_page": "หน้าการทำงานร่วมกัน"
                     },
@@ -722,7 +722,7 @@
             },
             "page-authorize": {
                 "initializing": "กำลังเริ่มการทำงาน",
-                "authorizing_client": "คุณกำลังจะให้ {clientId} เข้าถึงเซิร์ฟเวอร์ Home Assistant ของคุณ",
+                "authorizing_client": "คุณกำลังจะให้ {clientId} เข้าถึงเซิร์ฟเวอร์ E-Fonenana ของคุณ",
                 "logging_in_with": "เข้าสู่ระบบด้วย ** {authProviderName} **",
                 "pick_auth_provider": "หรือเข้าสู่ระบบด้วย",
                 "abort_intro": "เข้าสู่ระบบถูกยกเลิก",
@@ -867,7 +867,7 @@
                     },
                     "save_config": {
                         "header": "ควบคุม Lovelace UI ในแบบของคุณ",
-                        "para": "โดยเริ่มต้น Home Assistant จะควบคุมส่วนต่อประสานผู้ใช้งานเอง เมื่อมี Entity หรือส่วนควบคุมใหม่ๆ จะถูกแสดงขึ้นให้เอง แต่ถ้าคุณอยากจะควบคุมเอง เราจะไม่มีการอัพเดทตามข้างต้นให้กับคุณ",
+                        "para": "โดยเริ่มต้น E-Fonenana จะควบคุมส่วนต่อประสานผู้ใช้งานเอง เมื่อมี Entity หรือส่วนควบคุมใหม่ๆ จะถูกแสดงขึ้นให้เอง แต่ถ้าคุณอยากจะควบคุมเอง เราจะไม่มีการอัพเดทตามข้างต้นให้กับคุณ",
                         "para_sure": "คุณแน่ใจหรือไม่ว่าต้องการควบคุมส่วนต่อประสานผู้ใช้งาน?",
                         "cancel": "ไม่เป็นไร",
                         "save": "ใช้การควบคุม"
@@ -1125,7 +1125,7 @@
         "vacuum": "เครื่องดูดฝุ่น",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "E-Fonenana",
         "lovelace": "Lovelace",
         "system_health": "ข้อมูลสถานะของระบบ",
         "person": "บุคคล"

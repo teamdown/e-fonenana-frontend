@@ -42,12 +42,12 @@ export class CloudAlexaPref extends LitElement {
           @change="${this._toggleChanged}"
         ></paper-toggle-button>
         <div class="card-content">
-          With the Alexa integration for Home Assistant Cloud you'll be able to
-          control all your Home Assistant devices via any Alexa-enabled device.
+          With the Alexa integration for E-Fonenana Cloud you'll be able to
+          control all your E-Fonenana devices via any Alexa-enabled device.
           <ul>
             <li>
-              To activate, search in the Alexa app for the Home Assistant Smart
-              Home skill.
+              To activate, search in the Alexa app for the E-Fonenana Smart Home
+              skill.
             </li>
             <li>
               <a

@@ -56,7 +56,7 @@ class HaPanelCustom extends NavigateMixin(EventsMixin(PolymerElement)) {
           tempA.href
         }"?
 
-It will have access to all data in Home Assistant.
+It will have access to all data in E-Fonenana.
 
 (Check docs for the panel_custom component to hide this message)`)
       ) {

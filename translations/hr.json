@@ -303,7 +303,7 @@
                 "delete_button": "Izbrisati"
             },
             "config": {
-                "header": "Konfigurirajte Home Assistant",
+                "header": "Konfigurirajte E-Fonenana",
                 "core": {
                     "caption": "Općenito",
                     "section": {
@@ -321,7 +321,7 @@
                             },
                             "server_management": {
                                 "heading": "Upravljanje poslužiteljem",
-                                "introduction": "Kontrolirajte vaš Home Assistant server ... iz Home Assistant.",
+                                "introduction": "Kontrolirajte vaš E-Fonenana server ... iz E-Fonenana.",
                                 "restart": "Ponovno pokretanje"
                             }
                         }
@@ -335,7 +335,7 @@
                     "description": "Stvaranje i uređivanje automatizacija",
                     "picker": {
                         "header": "Urednik Automatizacije",
-                        "introduction": "Automatizacijski urednik omogućuje stvaranje i uređivanje automatizacije. Molimo pročitajte [upute] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) kako biste bili sigurni da ste ispravno konfigurirali Home Assistant.",
+                        "introduction": "Automatizacijski urednik omogućuje stvaranje i uređivanje automatizacije. Molimo pročitajte [upute] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) kako biste bili sigurni da ste ispravno konfigurirali E-Fonenana.",
                         "pick_automation": "Odaberite automatizaciju za uređivanje",
                         "no_automations": "Nismo mogli pronaći nikakve automatizirane uređaje",
                         "add_automation": "Dodaj automatizaciju"
@@ -348,7 +348,7 @@
                         "alias": "Ime",
                         "triggers": {
                             "header": "Okidači",
-                            "introduction": "Okidači su ono što pokreće obradu pravila o automatizaciji. Moguće je odrediti više okidača za isto pravilo. Kada pokrenete okidač, Home Assistant provjerit će uvjete, ako ih ima i pozvati akciju. \n\n [Saznajte više o pokretačima.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Okidači su ono što pokreće obradu pravila o automatizaciji. Moguće je odrediti više okidača za isto pravilo. Kada pokrenete okidač, E-Fonenana provjerit će uvjete, ako ih ima i pozvati akciju. \n\n [Saznajte više o pokretačima.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Dodaj okidač",
                             "duplicate": "Udvostruči",
                             "delete": "Obriši",
@@ -368,7 +368,7 @@
                                     "for": "Za"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Događaj:",
                                     "start": "Početak",
                                     "shutdown": "Ugasiti"
@@ -460,7 +460,7 @@
                         },
                         "actions": {
                             "header": "Akcije",
-                            "introduction": "Radnje su ono što će Home Assistant učiniti kada se aktivira automatizacija. \n\n [Saznajte više o radnjama.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Radnje su ono što će E-Fonenana učiniti kada se aktivira automatizacija. \n\n [Saznajte više o radnjama.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Dodajte radnju",
                             "duplicate": "Dupliciraj",
                             "delete": "Obriši",
@@ -515,7 +515,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "Prijavljeni ste kao {email}",
                     "description_not_login": "Niste prijavljeni"
                 },
@@ -531,7 +531,7 @@
                         "no_devices": "Ova integracija nema uređaje.",
                         "no_device": "Entiteti bez uređaja",
                         "delete_confirm": "Jeste li sigurni da želite izbrisati tu integraciju?",
-                        "restart_confirm": "Ponovo pokrenite Home Assistant da biste dovršili uklanjanje ove integracije",
+                        "restart_confirm": "Ponovo pokrenite E-Fonenana da biste dovršili uklanjanje ove integracije",
                         "manuf": "od {manufacturer}",
                         "hub": "Povezan putem",
                         "firmware": "Firmware: {version}",
@@ -573,7 +573,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Tokeni dugog življenja",
-                    "description": "Izradite dugotrajne tokene za pristup kako biste omogućili da vaše skripte stupaju u interakciju sa vašim primjerom Home Assistant-a. Svaki token će vrijediti 10 godina od stvaranja.  Sljedeći tokeni dugogodišnjeg pristupa su trenutno aktivni",
+                    "description": "Izradite dugotrajne tokene za pristup kako biste omogućili da vaše skripte stupaju u interakciju sa vašim primjerom E-Fonenana-a. Svaki token će vrijediti 10 godina od stvaranja.  Sljedeći tokeni dugogodišnjeg pristupa su trenutno aktivni",
                     "learn_auth_requests": "Saznajte kako obaviti provjeru autentičnosti zahtjeva.",
                     "created_at": "Izrađeno na {date}",
                     "confirm_delete": "Jeste li sigurni da želite izbrisati pristupni token za {name} ?",
@@ -613,7 +613,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicijalizacija",
-                "authorizing_client": "Dati ćete {clientId} pristup svojoj instanci pomoćnika Home Assistant.",
+                "authorizing_client": "Dati ćete {clientId} pristup svojoj instanci pomoćnika E-Fonenana.",
                 "logging_in_with": "Prijavite se sa **{authProviderName}**.",
                 "pick_auth_provider": "Ili se prijavite sa",
                 "abort_intro": "Prijava je prekinuta",
@@ -726,7 +726,7 @@
                     "migrate": {
                         "header": "Konfiguracija nije kompatibilna",
                         "para_no_id": "Ovaj element nema ID. Dodajte ID ovom elementu u 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant može dodati ID-ove na sve vaše kartice i pogleda automatski za vas pritiskom na gumb 'Migriraj konfiguriranje'.",
+                        "para_migrate": "E-Fonenana može dodati ID-ove na sve vaše kartice i pogleda automatski za vas pritiskom na gumb 'Migriraj konfiguriranje'.",
                         "migrate": "Migriraj konfiguraciju"
                     },
                     "header": "Uredi UI",
@@ -738,7 +738,7 @@
                     },
                     "save_config": {
                         "header": "Preuzmite kontrolu nad Lovelace UI",
-                        "para": "Home Assistant će prema zadanim postavkama održavati vaše korisničko sučelje, ažurirati ga kada novi entiteti ili Lovelace komponente postanu dostupni. Ako preuzmete kontrolu, više nećemo automatski vršiti izmjene za vas.",
+                        "para": "E-Fonenana će prema zadanim postavkama održavati vaše korisničko sučelje, ažurirati ga kada novi entiteti ili Lovelace komponente postanu dostupni. Ako preuzmete kontrolu, više nećemo automatski vršiti izmjene za vas.",
                         "para_sure": "Jeste li sigurni da želite preuzeti kontrolu nad svojim korisničkim sučeljem?",
                         "cancel": "Nema veze",
                         "save": "Preuzmi kontrolu"

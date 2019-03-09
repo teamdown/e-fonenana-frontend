@@ -320,8 +320,8 @@
                 "delete_button": "Slet"
             },
             "config": {
-                "header": "Konfigurer Home Assistant",
-                "introduction": "Her er det muligt at konfigurere dine komponenter og Home Assistant. Ikke alt er muligt at konfigurere fra brugergrænsefladen endnu, men vi arbejder på det.",
+                "header": "Konfigurer E-Fonenana",
+                "introduction": "Her er det muligt at konfigurere dine komponenter og E-Fonenana. Ikke alt er muligt at konfigurere fra brugergrænsefladen endnu, men vi arbejder på det.",
                 "core": {
                     "caption": "Generelt",
                     "description": "Valider din konfigurationsfil og kontroller serveren",
@@ -338,7 +338,7 @@
                             },
                             "reloading": {
                                 "heading": "Genindlæsning af konfiguration",
-                                "introduction": "Nogle dele af Home Assistant kan genindlæse uden at kræve en genstart. Tryk på \"genindlæs\" vil afmontere deres nuværende konfiguration og indlæse den nye.",
+                                "introduction": "Nogle dele af E-Fonenana kan genindlæse uden at kræve en genstart. Tryk på \"genindlæs\" vil afmontere deres nuværende konfiguration og indlæse den nye.",
                                 "core": "Genindlæs system",
                                 "group": "Genindlæs grupper",
                                 "automation": "Genindlæs automatiseringer",
@@ -346,7 +346,7 @@
                             },
                             "server_management": {
                                 "heading": "Serveradministration",
-                                "introduction": "Kontroller din Home Assistant server... fra Home Assistant.",
+                                "introduction": "Kontroller din E-Fonenana server... fra E-Fonenana.",
                                 "restart": "Genstart",
                                 "stop": "Stop"
                             }
@@ -366,7 +366,7 @@
                     "description": "Opret og rediger automatiseringer",
                     "picker": {
                         "header": "Automatiserings editor",
-                        "introduction": "Automatiserings editoren giver dig mulighed for at oprette og redigere automatiseringer. Læs venligst [instruktionerne] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) for at sikre dig, at du har konfigureret Home Assistant korrekt.",
+                        "introduction": "Automatiserings editoren giver dig mulighed for at oprette og redigere automatiseringer. Læs venligst [instruktionerne] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) for at sikre dig, at du har konfigureret E-Fonenana korrekt.",
                         "pick_automation": "Vælg automatisering for at redigere",
                         "no_automations": "Vi kunne ikke finde nogen redigerbare automatiseringer",
                         "add_automation": "Tilføj automatisering",
@@ -380,7 +380,7 @@
                         "alias": "Navn",
                         "triggers": {
                             "header": "Udløser",
-                            "introduction": "Udløsere er, hvad der begynder behandlingen af en automatiseringsregel. Det er muligt at angive flere udløsere for samme regel. Når en udløser starter, vil Home Assistant validere betingelserne, hvis nogen, og udføre handlingen. \n\n [Lær mere om udløsere.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Udløsere er, hvad der begynder behandlingen af en automatiseringsregel. Det er muligt at angive flere udløsere for samme regel. Når en udløser starter, vil E-Fonenana validere betingelserne, hvis nogen, og udføre handlingen. \n\n [Lær mere om udløsere.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Tilføj udløser",
                             "duplicate": "Kopier",
                             "delete": "Slet",
@@ -400,7 +400,7 @@
                                     "for": "Varighed"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Begivenhed",
                                     "start": "Start",
                                     "shutdown": "Luk ned"
@@ -508,7 +508,7 @@
                         },
                         "actions": {
                             "header": "Handlinger",
-                            "introduction": "Handlingerne er, hvad Home Assistant skal gøre, når automatiseringen udløses. \n\n [Lær mere om handlinger.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Handlingerne er, hvad E-Fonenana skal gøre, når automatiseringen udløses. \n\n [Lær mere om handlinger.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Tilføj automatisering",
                             "duplicate": "Kopier",
                             "delete": "Slet",
@@ -573,7 +573,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "Logget ind som {email}",
                     "description_not_login": "Ikke logget ind"
                 },
@@ -589,7 +589,7 @@
                         "no_devices": "Denne integration har ingen enheder",
                         "no_device": "Entiteter uden enhed",
                         "delete_confirm": "Er du sikker på, at du vil fjerne denne integration?",
-                        "restart_confirm": "Genstart Home Assistant for at afslutte fjernelsen af denne integration",
+                        "restart_confirm": "Genstart E-Fonenana for at afslutte fjernelsen af denne integration",
                         "manuf": "af {manufacturer}",
                         "hub": "Forbundet via",
                         "firmware": "Firmware: {version}",
@@ -610,7 +610,7 @@
                     "description": "Oversigt over alle områder i dit hjem.",
                     "picker": {
                         "header": "Område registrering",
-                        "introduction": "Områder bruges til at organisere hvor enhederne er. Disse oplysninger vil blive brugt i Home Assistant til at hjælpe dig med at organisere din grænseflade, tilladelser og integrationer med andre systemer.",
+                        "introduction": "Områder bruges til at organisere hvor enhederne er. Disse oplysninger vil blive brugt i E-Fonenana til at hjælpe dig med at organisere din grænseflade, tilladelser og integrationer med andre systemer.",
                         "introduction2": "Hvis du vil placere enheder i et område, skal du bruge linket herunder til at navigere til integrationssiden og derefter klikke på en konfigureret integration for at komme til enhedskortene.",
                         "integrations_page": "Integrations side"
                     },
@@ -629,8 +629,8 @@
                     "picker": {
                         "header": "Enheds registrering",
                         "unavailable": "(utilgængelig)",
-                        "introduction": "Home Assistant opbevarer en registrering over hver unikke enhed det nogensinde har set. Hver af disse enheder vil have et registrerings ID tildelt som er forbeholdt netop denne enhed.",
-                        "introduction2": "Brug enhedsregistrering til at overskrive navnet, ændre enheds ID eller fjerne enheden fra Home Assistant. Bemærk at fjernelse af enhedens registrering ikke fjerner enheden. For at gøre det skal du følge linket herunder og fjerne det fra integrationssiden.",
+                        "introduction": "E-Fonenana opbevarer en registrering over hver unikke enhed det nogensinde har set. Hver af disse enheder vil have et registrerings ID tildelt som er forbeholdt netop denne enhed.",
+                        "introduction2": "Brug enhedsregistrering til at overskrive navnet, ændre enheds ID eller fjerne enheden fra E-Fonenana. Bemærk at fjernelse af enhedens registrering ikke fjerner enheden. For at gøre det skal du følge linket herunder og fjerne det fra integrationssiden.",
                         "integrations_page": "Integrations side"
                     },
                     "editor": {
@@ -642,7 +642,7 @@
                 },
                 "person": {
                     "caption": "Personer",
-                    "description": "Administrer de personer som Home Assistant skal spore.",
+                    "description": "Administrer de personer som E-Fonenana skal spore.",
                     "detail": {
                         "name": "Navn",
                         "device_tracker_intro": "Vælg de enheder, der tilhører denne person.",
@@ -684,7 +684,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Langtids Access Tokens",
-                    "description": "Opret langtids adgangstokener, så dine scripts kan forbinde med din Home Assistant instans. Hver token er gyldig i 10 år fra oprettelsen. Følgende langtids adgangstokener er i øjeblikket aktive.",
+                    "description": "Opret langtids adgangstokener, så dine scripts kan forbinde med din E-Fonenana instans. Hver token er gyldig i 10 år fra oprettelsen. Følgende langtids adgangstokener er i øjeblikket aktive.",
                     "learn_auth_requests": "Lær, hvordan du laver godkendte forespørgsler.",
                     "created_at": "Oprettet den {date}",
                     "confirm_delete": "Er du sikker på, at du vil slette adgangstoken til {name} ?",
@@ -724,7 +724,7 @@
             },
             "page-authorize": {
                 "initializing": "Initialiserer",
-                "authorizing_client": "Du er ved at give {clientId} adgang til din Home Assistant-instans.",
+                "authorizing_client": "Du er ved at give {clientId} adgang til din E-Fonenana-instans.",
                 "logging_in_with": "Log ind med **{authProviderName}**.",
                 "pick_auth_provider": "Eller log ind med",
                 "abort_intro": "Login afbrudt",
@@ -1132,7 +1132,7 @@
         "vacuum": "Støvsuger",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "E-Fonenana",
         "lovelace": "Lovelace",
         "system_health": "System sundhed",
         "person": "Person"

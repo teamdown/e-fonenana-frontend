@@ -310,8 +310,8 @@
                 "delete_button": "Kustuta"
             },
             "config": {
-                "header": "Home Assistant-i seadistamine",
-                "introduction": "Siin saab seadistada oma komponente ja Home Assistant-i. Mitte kõike ei saa veel kasutajaliidese kaudu seadistada, kuid me töötame selle nimel.",
+                "header": "E-Fonenana-i seadistamine",
+                "introduction": "Siin saab seadistada oma komponente ja E-Fonenana-i. Mitte kõike ei saa veel kasutajaliidese kaudu seadistada, kuid me töötame selle nimel.",
                 "core": {
                     "caption": "Üldine",
                     "description": "Kontrolli oma seadete faili ja kontrolli serverit",
@@ -328,7 +328,7 @@
                             },
                             "reloading": {
                                 "heading": "Seadete taaslaadimine",
-                                "introduction": "Mõned Home Assistant-i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued.",
+                                "introduction": "Mõned E-Fonenana-i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued.",
                                 "core": "Taaslae tuum",
                                 "group": "Taaslae grupid",
                                 "automation": "Taaslae automatiseeringud",
@@ -336,7 +336,7 @@
                             },
                             "server_management": {
                                 "heading": "Serveri haldamine",
-                                "introduction": "Kontrolli oma Home Assistant serverit... Home Assistant-ist.",
+                                "introduction": "Kontrolli oma E-Fonenana serverit... E-Fonenana-ist.",
                                 "restart": "Taaskäivita",
                                 "stop": "Peata"
                             }
@@ -352,7 +352,7 @@
                     "description": "Loo ja redigeeri automatiseeringuid",
                     "picker": {
                         "header": "Automaatika redaktor",
-                        "introduction": "Automaatika redaktor võimaldab teil luua ja muuta automatiseeringuid. Palun loe läbi [kasutusjuhend](https:\/\/home-assistant.io\/docs\/automation\/editor\/), veendumaks, et oled Home Assistant-i õigesti seadistanud.",
+                        "introduction": "Automaatika redaktor võimaldab teil luua ja muuta automatiseeringuid. Palun loe läbi [kasutusjuhend](https:\/\/home-assistant.io\/docs\/automation\/editor\/), veendumaks, et oled E-Fonenana-i õigesti seadistanud.",
                         "pick_automation": "Vali muudetav automatiseering",
                         "no_automations": "Me ei leidnud ühtegi muudetavat automatiseeringut",
                         "add_automation": "Lisa automatiseering"
@@ -365,7 +365,7 @@
                         "alias": "Nimi",
                         "triggers": {
                             "header": "Päästikud",
-                            "introduction": "Päästikud on need, millest algab automatiseeringu töö. Ühe automatiseeringu jaoks on võimalik määrata mitu päästikut. Kui päästik vallandub, kontrollib Home Assistant võimalike tingimuste täidetust ja käivitab tegevuse.\n\n[Lisateave päästikutest.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Päästikud on need, millest algab automatiseeringu töö. Ühe automatiseeringu jaoks on võimalik määrata mitu päästikut. Kui päästik vallandub, kontrollib E-Fonenana võimalike tingimuste täidetust ja käivitab tegevuse.\n\n[Lisateave päästikutest.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Lisa päästik",
                             "duplicate": "Paljunda",
                             "delete": "Kustuta",
@@ -385,7 +385,7 @@
                                     "for": "Jaoks"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Sündmus:",
                                     "start": "Käivitamine",
                                     "shutdown": "Seiskamine"
@@ -483,7 +483,7 @@
                         },
                         "actions": {
                             "header": "Tegevused",
-                            "introduction": "Tegevused on need, mida Home Assistant teeb kui päästik käivitab automatiseeringu.\n\n[Lisateave tegevustest.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Tegevused on need, mida E-Fonenana teeb kui päästik käivitab automatiseeringu.\n\n[Lisateave tegevustest.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Lisa toiming",
                             "duplicate": "Paljunda",
                             "delete": "Kustuta",
@@ -539,7 +539,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant pilv",
+                    "caption": "E-Fonenana pilv",
                     "description_login": "Sisse logitud kui {email}",
                     "description_not_login": "Pole sisse logitud"
                 },
@@ -555,7 +555,7 @@
                         "no_devices": "See sidumine ei hõlma ühtegi seadet",
                         "no_device": "Üksused ilma seadmeteta",
                         "delete_confirm": "Oled kindel, et soovid selle sidumise kustutada?",
-                        "restart_confirm": "Selle sidumise lõplikuks eemaldamiseks taaskäivita Home Assistant",
+                        "restart_confirm": "Selle sidumise lõplikuks eemaldamiseks taaskäivita E-Fonenana",
                         "manuf": "{manufacturer}",
                         "hub": "Ühendatud",
                         "firmware": "Püsivara: {version}",
@@ -600,7 +600,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Pikaajalised juurdepääsutõendid",
-                    "description": "Loo pikaajalised juurdepääsutõendid, mis võimaldavad sinu skriptidel suhelda sinu Home Assistant serveriga. Iga juurdepääsutõend kehtib kümme aastat loomisest alates. Praegu on aktiivsed järgmised pikaajalised juurdepääsutõendid.",
+                    "description": "Loo pikaajalised juurdepääsutõendid, mis võimaldavad sinu skriptidel suhelda sinu E-Fonenana serveriga. Iga juurdepääsutõend kehtib kümme aastat loomisest alates. Praegu on aktiivsed järgmised pikaajalised juurdepääsutõendid.",
                     "learn_auth_requests": "Loe, kuidas teha tõendatud päringuid.",
                     "created_at": "Loodud {date}",
                     "confirm_delete": "Oled kindel, et soovid kustutada juurdepääsutõendi {name} jaoks?",
@@ -640,7 +640,7 @@
             },
             "page-authorize": {
                 "initializing": "Lähtestan",
-                "authorizing_client": "Kavatsed anda {clientId} jaoks juurdepääsu oma Home Assistant serverile.",
+                "authorizing_client": "Kavatsed anda {clientId} jaoks juurdepääsu oma E-Fonenana serverile.",
                 "logging_in_with": "Login sisse **{authProviderName}** abil.",
                 "pick_auth_provider": "Või logi sisse, kasutades",
                 "abort_intro": "Sisselogimine katkestatud",

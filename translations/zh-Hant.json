@@ -324,8 +324,8 @@
                 "delete_button": "刪除"
             },
             "config": {
-                "header": "設定 Home Assistant",
-                "introduction": "此處為 Home Assistant 和元件相關配置區，目前尚未支援透過 UI 進行所有設定，我們正在努力改進中。",
+                "header": "設定 E-Fonenana",
+                "introduction": "此處為 E-Fonenana 和元件相關配置區，目前尚未支援透過 UI 進行所有設定，我們正在努力改進中。",
                 "core": {
                     "caption": "一般設定",
                     "description": "驗證設定內容及服務器控制",
@@ -342,7 +342,7 @@
                             },
                             "reloading": {
                                 "heading": "重新載入設定檔（configuration）",
-                                "introduction": "Home Assistant 中部分設定無須重啟即可重新載入生效。\n點選重新載入按鈕，即可重新載入最新設定。",
+                                "introduction": "E-Fonenana 中部分設定無須重啟即可重新載入生效。\n點選重新載入按鈕，即可重新載入最新設定。",
                                 "core": "重新載入核心設定（core）",
                                 "group": "重新載入群組（group）",
                                 "automation": "重新載入自動化（automation）",
@@ -350,7 +350,7 @@
                             },
                             "server_management": {
                                 "heading": "服務器管理",
-                                "introduction": "控制 Home Assistant 伺服器。",
+                                "introduction": "控制 E-Fonenana 伺服器。",
                                 "restart": "重啟",
                                 "stop": "停止"
                             }
@@ -370,7 +370,7 @@
                     "description": "新增和編輯自動化內容",
                     "picker": {
                         "header": "自動化編輯器",
-                        "introduction": "自動化編輯器允許新增或編輯自動化。請參考下方教學連結，以確保正確的設定 Home Assistant。",
+                        "introduction": "自動化編輯器允許新增或編輯自動化。請參考下方教學連結，以確保正確的設定 E-Fonenana。",
                         "pick_automation": "選擇欲編輯的自動化",
                         "no_automations": "沒有任何可編輯的自動化",
                         "add_automation": "新增一個自動化",
@@ -384,7 +384,7 @@
                         "alias": "名稱",
                         "triggers": {
                             "header": "觸發",
-                            "introduction": "「觸發條件」為可使設定好的自動化開始運作。可以針對一個自動化設定多個觸發條件。一旦觸發後，Home Assistant 會檢查觸發判斷式，並開始執行動作。",
+                            "introduction": "「觸發條件」為可使設定好的自動化開始運作。可以針對一個自動化設定多個觸發條件。一旦觸發後，E-Fonenana 會檢查觸發判斷式，並開始執行動作。",
                             "add": "新增一個觸發",
                             "duplicate": "複製",
                             "delete": "刪除",
@@ -404,7 +404,7 @@
                                     "for": "持續"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "事件：",
                                     "start": "開始",
                                     "shutdown": "關機"
@@ -512,7 +512,7 @@
                         },
                         "actions": {
                             "header": "觸發後動作",
-                            "introduction": "「動作」為自動化觸發後，Home Assistant 所執行的自動化。",
+                            "introduction": "「動作」為自動化觸發後，E-Fonenana 所執行的自動化。",
                             "add": "新增一個動作",
                             "duplicate": "複製",
                             "delete": "刪除",
@@ -577,7 +577,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "登入帳號：{email}",
                     "description_not_login": "未登入"
                 },
@@ -593,7 +593,7 @@
                         "no_devices": "此整合沒有任何裝置。",
                         "no_device": "物件沒有裝置",
                         "delete_confirm": "確定要刪除此整合？",
-                        "restart_confirm": "重啟 Home Assistant 以完成此整合移動",
+                        "restart_confirm": "重啟 E-Fonenana 以完成此整合移動",
                         "manuf": "廠牌：{manufacturer}",
                         "hub": "連線：",
                         "firmware": "韌體：{version}",
@@ -614,7 +614,7 @@
                     "description": "家中所有分區概觀。",
                     "picker": {
                         "header": "分區 ID",
-                        "introduction": "分區主要用以管理裝置所在位置。此資訊將會於 Home Assistant 中使用以協助您管理介面、權限，並與其他系統進行整合。",
+                        "introduction": "分區主要用以管理裝置所在位置。此資訊將會於 E-Fonenana 中使用以協助您管理介面、權限，並與其他系統進行整合。",
                         "introduction2": "欲於分區中放置裝置，請使用下方連結至整合頁面，並點選設定整合以設定裝置卡片。",
                         "integrations_page": "整合頁面"
                     },
@@ -633,8 +633,8 @@
                     "picker": {
                         "header": "物件 ID",
                         "unavailable": "（不可用）",
-                        "introduction": "Home Assistant 保持每個物件 ID 的獨特辨識性，此些物件將會指定一組專用的 物件 ID。",
-                        "introduction2": "使用物件 ID 以覆寫名稱、變更物件 ID 或由 Home Assistant 移除物件。請注意：移除物件 ID 項目並不會移除物件。欲移除，請跟隨下方連結，並於整合頁面中進行移除。",
+                        "introduction": "E-Fonenana 保持每個物件 ID 的獨特辨識性，此些物件將會指定一組專用的 物件 ID。",
+                        "introduction2": "使用物件 ID 以覆寫名稱、變更物件 ID 或由 E-Fonenana 移除物件。請注意：移除物件 ID 項目並不會移除物件。欲移除，請跟隨下方連結，並於整合頁面中進行移除。",
                         "integrations_page": "整合頁面"
                     },
                     "editor": {
@@ -646,7 +646,7 @@
                 },
                 "person": {
                     "caption": "人員",
-                    "description": "管理 Home Assistant 追蹤人員。",
+                    "description": "管理 E-Fonenana 追蹤人員。",
                     "detail": {
                         "name": "名稱",
                         "device_tracker_intro": "選擇此人員所擁有的設備。",
@@ -688,7 +688,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "永久有效存取密鑰",
-                    "description": "創建長效存取密鑰，可供運用腳本與 Home Assistant 物件進行互動。每個密鑰於創建後，有效期為十年。目前已啟用之永久有效密鑰如下。",
+                    "description": "創建長效存取密鑰，可供運用腳本與 E-Fonenana 物件進行互動。每個密鑰於創建後，有效期為十年。目前已啟用之永久有效密鑰如下。",
                     "learn_auth_requests": "學習如何進行驗證請求。",
                     "created_at": "於{date}創建",
                     "confirm_delete": "確定要刪除{name}存取密鑰嗎？",
@@ -728,7 +728,7 @@
             },
             "page-authorize": {
                 "initializing": "初始化中",
-                "authorizing_client": "即將授與 {clientId} 訪問 Home Assistant 系統權限。",
+                "authorizing_client": "即將授與 {clientId} 訪問 E-Fonenana 系統權限。",
                 "logging_in_with": "使用 **{authProviderName}** 登入。",
                 "pick_auth_provider": "或以其他方式登入",
                 "abort_intro": "登入中止",
@@ -865,7 +865,7 @@
                     "migrate": {
                         "header": "設定不相容",
                         "para_no_id": "該元件未含 ID，請於「ui-lovelace.yaml」中為該元件新增 ID。",
-                        "para_migrate": "Home Assistant 能於您點選「遷移設定」按鈕後，自動新增 ID 與視圖至所有卡片。",
+                        "para_migrate": "E-Fonenana 能於您點選「遷移設定」按鈕後，自動新增 ID 與視圖至所有卡片。",
                         "migrate": "遷移設定"
                     },
                     "header": "編輯 UI",
@@ -877,7 +877,7 @@
                     },
                     "save_config": {
                         "header": "自行編輯 Lovelace UI",
-                        "para": "Home Assistant 於預設下，將維護您的使用者介面、於新物件或 Lovelace 元件可使用時進行更新。假如選擇自行編輯，系統將不再為您自動進行變更。",
+                        "para": "E-Fonenana 於預設下，將維護您的使用者介面、於新物件或 Lovelace 元件可使用時進行更新。假如選擇自行編輯，系統將不再為您自動進行變更。",
                         "para_sure": "確定要自行編輯使用者介面？",
                         "cancel": "我再想想",
                         "save": "自行編輯"
@@ -1136,7 +1136,7 @@
         "vacuum": "吸塵器",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "E-Fonenana",
         "lovelace": "Lovelace",
         "system_health": "系統健康",
         "person": "個人"

@@ -23,7 +23,7 @@ function initRouting() {
     workbox.strategies.networkOnly()
   );
 
-  // For rest of the files (on Home Assistant domain only) try both cache and network.
+  // For rest of the files (on E-Fonenana domain only) try both cache and network.
   // This includes the root "/" or "/states" response and user files from "/local".
   // First access might bring stale data from cache, but a single refresh will bring updated
   // file.

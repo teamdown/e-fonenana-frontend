@@ -324,8 +324,8 @@
                 "delete_button": "Elimina"
             },
             "config": {
-                "header": "Configura Home Assistant",
-                "introduction": "Qui è possibile configurare i componenti e Home Assistant. Non è ancora possibile configurare tutto dall'interfaccia utente, ma ci stiamo lavorando.",
+                "header": "Configura E-Fonenana",
+                "introduction": "Qui è possibile configurare i componenti e E-Fonenana. Non è ancora possibile configurare tutto dall'interfaccia utente, ma ci stiamo lavorando.",
                 "core": {
                     "caption": "Generale",
                     "description": "Convalidare il file di configurazione e controllare il server",
@@ -342,7 +342,7 @@
                             },
                             "reloading": {
                                 "heading": "Ricaricamento della configurazione",
-                                "introduction": "Alcune parti di Home Assistant possono essere ricaricate senza richiedere il riavvio. Premendo scaricherà la configurazione corrente e caricherà quella nuova.",
+                                "introduction": "Alcune parti di E-Fonenana possono essere ricaricate senza richiedere il riavvio. Premendo scaricherà la configurazione corrente e caricherà quella nuova.",
                                 "core": "Ricarica core",
                                 "group": "Ricarica gruppi",
                                 "automation": "Ricarica automazioni",
@@ -350,7 +350,7 @@
                             },
                             "server_management": {
                                 "heading": "Gestione del server",
-                                "introduction": "Controllare il server Home Assistant... da Home Assistant.",
+                                "introduction": "Controllare il server E-Fonenana... da E-Fonenana.",
                                 "restart": "Riavviare",
                                 "stop": "Stop"
                             }
@@ -370,7 +370,7 @@
                     "description": "Crea e modifica automazioni",
                     "picker": {
                         "header": "Editor automazione",
-                        "introduction": "L'editor di automazione consente di creare e modificare automazioni. Per favore leggi [le istruzioni](https:\/\/home-assistant.io\/docs\/automation\/editor\/) per assicurarti di aver configurato correttamente Home Assistant.",
+                        "introduction": "L'editor di automazione consente di creare e modificare automazioni. Per favore leggi [le istruzioni](https:\/\/home-assistant.io\/docs\/automation\/editor\/) per assicurarti di aver configurato correttamente E-Fonenana.",
                         "pick_automation": "Scegli l'automazione da modificare",
                         "no_automations": "Nessuna automazione modificabile trovata",
                         "add_automation": "Aggiungi automazione",
@@ -384,7 +384,7 @@
                         "alias": "Nome",
                         "triggers": {
                             "header": "Triggers",
-                            "introduction": "I trigger sono ciò che avvia l'elaborazione di una regola di automazione. È possibile specificare più trigger per la stessa regola. Una volta avviato il trigger, Home Assistant convaliderà le condizioni, se presenti, e chiamerà l'azione. \n\n [Ulteriori informazioni sui trigger.](Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "I trigger sono ciò che avvia l'elaborazione di una regola di automazione. È possibile specificare più trigger per la stessa regola. Una volta avviato il trigger, E-Fonenana convaliderà le condizioni, se presenti, e chiamerà l'azione. \n\n [Ulteriori informazioni sui trigger.](Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Aggiungi trigger",
                             "duplicate": "Duplica",
                             "delete": "Elimina",
@@ -404,7 +404,7 @@
                                     "for": "Per"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Evento:",
                                     "start": "Avvio",
                                     "shutdown": "Arresto del sistema"
@@ -512,7 +512,7 @@
                         },
                         "actions": {
                             "header": "Azioni",
-                            "introduction": "Le azioni sono ciò che Home Assistant farà quando un trigger attiva un automazione. \n\n [Ulteriori informazioni sulle azioni.](Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Le azioni sono ciò che E-Fonenana farà quando un trigger attiva un automazione. \n\n [Ulteriori informazioni sulle azioni.](Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Aggiungi azione",
                             "duplicate": "Duplica",
                             "delete": "Elimina",
@@ -577,7 +577,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "Connesso come {email}",
                     "description_not_login": "Accesso non effettuato"
                 },
@@ -593,7 +593,7 @@
                         "no_devices": "Questa integrazione non ha dispositivi.",
                         "no_device": "Entità senza dispositivi",
                         "delete_confirm": "Sei sicuro di voler eliminare questa integrazione?",
-                        "restart_confirm": "Riavvia Home Assistant per terminare la rimozione di questa integrazione",
+                        "restart_confirm": "Riavvia E-Fonenana per terminare la rimozione di questa integrazione",
                         "manuf": "da {manufacturer}",
                         "hub": "Connesso tramite",
                         "firmware": "Firmware: {version}",
@@ -614,7 +614,7 @@
                     "description": "Panoramica di tutte le aree della tua casa.",
                     "picker": {
                         "header": "Registro di area",
-                        "introduction": "Le aree sono utilizzate per organizzare dove sono i dispositivi. Queste informazioni saranno utilizzate in Home Assistant per aiutarti ad organizzare la tua interfaccia, permessi e integrazioni con altri sistemi.",
+                        "introduction": "Le aree sono utilizzate per organizzare dove sono i dispositivi. Queste informazioni saranno utilizzate in E-Fonenana per aiutarti ad organizzare la tua interfaccia, permessi e integrazioni con altri sistemi.",
                         "introduction2": "Per posizionare i dispositivi in un'area, utilizzare il collegamento seguente per accedere alla pagina delle integrazioni e quindi fare clic su un'integrazione configurata per accedere alle schede del dispositivo.",
                         "integrations_page": "Integrazioni"
                     },
@@ -633,8 +633,8 @@
                     "picker": {
                         "header": "Registro delle entità",
                         "unavailable": "(non disponibile)",
-                        "introduction": "Home Assistant mantiene un registro di tutte le entità che ha mai localizzato che possono essere identificate in modo univoco. A ciascuna di queste entità sarà assegnato un ID che sarà riservato solo a questa entità.",
-                        "introduction2": "Utilizzare il registro delle entità per sovrascrivere il nome, modificare l'entity ID o rimuovere la voce da Home Assistant. Nota, la rimozione della voce del registro entità non rimuoverà l'entità. Per farlo, segui il link sottostante e rimuovilo dalla pagina delle integrazioni.",
+                        "introduction": "E-Fonenana mantiene un registro di tutte le entità che ha mai localizzato che possono essere identificate in modo univoco. A ciascuna di queste entità sarà assegnato un ID che sarà riservato solo a questa entità.",
+                        "introduction2": "Utilizzare il registro delle entità per sovrascrivere il nome, modificare l'entity ID o rimuovere la voce da E-Fonenana. Nota, la rimozione della voce del registro entità non rimuoverà l'entità. Per farlo, segui il link sottostante e rimuovilo dalla pagina delle integrazioni.",
                         "integrations_page": "Integrazioni"
                     },
                     "editor": {
@@ -646,7 +646,7 @@
                 },
                 "person": {
                     "caption": "Persone",
-                    "description": "Gestisci le persone di cui tiene traccia Home Assistant",
+                    "description": "Gestisci le persone di cui tiene traccia E-Fonenana",
                     "detail": {
                         "name": "Nome",
                         "device_tracker_intro": "Seleziona i dispositivi che appartengono a questa persona.",
@@ -688,7 +688,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Token di accesso a lunga vita",
-                    "description": "Crea token di accesso di lunga durata per consentire agli script di interagire con l'istanza di Home Assistant. Ogni token sarà valido per 10 anni dalla creazione. I seguenti token di accesso a vita lunga sono attualmente attivi.",
+                    "description": "Crea token di accesso di lunga durata per consentire agli script di interagire con l'istanza di E-Fonenana. Ogni token sarà valido per 10 anni dalla creazione. I seguenti token di accesso a vita lunga sono attualmente attivi.",
                     "learn_auth_requests": "Scopri come effettuare richieste autenticate.",
                     "created_at": "Creato il {date}",
                     "confirm_delete": "Sei sicuro di voler eliminare il token di accesso per {name} ?",
@@ -865,7 +865,7 @@
                     "migrate": {
                         "header": "Configurazione incompatibile",
                         "para_no_id": "Questo elemento non ha un ID. Aggiungi un ID a questo elemento in 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant può aggiungere automaticamente gli ID a tutte le tue schede e visualizzazioni automaticamente premendo il pulsante \"Eporta configurazione\".",
+                        "para_migrate": "E-Fonenana può aggiungere automaticamente gli ID a tutte le tue schede e visualizzazioni automaticamente premendo il pulsante \"Eporta configurazione\".",
                         "migrate": "Esporta configurazione"
                     },
                     "header": "Modifica dell'interfaccia utente",
@@ -877,7 +877,7 @@
                     },
                     "save_config": {
                         "header": "Prendi il controllo della tua interfaccia utente di Lovelace",
-                        "para": "Per impostazione predefinita, Home Assistant manterrà l'interfaccia utente, aggiornandola quando nuove entità o componenti Lovelace diventano disponibili. Se prendi il controllo non effettueremo più automaticamente le modifiche per te.",
+                        "para": "Per impostazione predefinita, E-Fonenana manterrà l'interfaccia utente, aggiornandola quando nuove entità o componenti Lovelace diventano disponibili. Se prendi il controllo non effettueremo più automaticamente le modifiche per te.",
                         "para_sure": "Sei sicuro di voler prendere il controllo della tua interfaccia utente?",
                         "cancel": "Rinuncia",
                         "save": "Prendere il controllo"
@@ -1136,7 +1136,7 @@
         "vacuum": "Aspirapolvere",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "E-Fonenana",
         "lovelace": "Lovelace",
         "system_health": "Salute del sistema",
         "person": "Persona"

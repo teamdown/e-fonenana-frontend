@@ -310,8 +310,8 @@
                 "delete_button": "Șterge"
             },
             "config": {
-                "header": "Configurați Home Assistant",
-                "introduction": "Aici este posibil să vă configurați componentele și Home Assistant. Nu este posibilă configurarea de la UI, dar lucrăm la asta.",
+                "header": "Configurați E-Fonenana",
+                "introduction": "Aici este posibil să vă configurați componentele și E-Fonenana. Nu este posibilă configurarea de la UI, dar lucrăm la asta.",
                 "core": {
                     "caption": "General",
                     "description": "Validați fișierul de configurare și controlați serverul",
@@ -328,7 +328,7 @@
                             },
                             "reloading": {
                                 "heading": "Refresh configurații",
-                                "introduction": "Unele părți din Home Assistant se pot reîncărca fără a necesita o repornire. Apăsarea reîncărcării va descărca configurația actuală și va încărca noua configurație.",
+                                "introduction": "Unele părți din E-Fonenana se pot reîncărca fără a necesita o repornire. Apăsarea reîncărcării va descărca configurația actuală și va încărca noua configurație.",
                                 "core": "Refresh procesor",
                                 "group": "Refresh grupuri",
                                 "automation": "Refresh automatizări",
@@ -336,7 +336,7 @@
                             },
                             "server_management": {
                                 "heading": "Server de gestionare",
-                                "introduction": "Controlează-ți serverul Home Assistant ... chiar din Home Assistant.",
+                                "introduction": "Controlează-ți serverul E-Fonenana ... chiar din E-Fonenana.",
                                 "restart": "Repornire",
                                 "stop": "Oprire"
                             }
@@ -352,7 +352,7 @@
                     "description": "Creați și editați scripturi",
                     "picker": {
                         "header": "Editor de automatizare",
-                        "introduction": "Editorul de automatizare vă permite să creați și să editați automatizări. Citiți [instrucțiunile] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) pentru a vă asigura că ați configurat corect Home Assistant.",
+                        "introduction": "Editorul de automatizare vă permite să creați și să editați automatizări. Citiți [instrucțiunile] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) pentru a vă asigura că ați configurat corect E-Fonenana.",
                         "pick_automation": "Alegeți automatizarea pentru a o edita",
                         "no_automations": "Nu am putut găsi automatizări editabile",
                         "add_automation": "Adăugați o automatizare"
@@ -365,7 +365,7 @@
                         "alias": "Nume",
                         "triggers": {
                             "header": "Declanșatoare",
-                            "introduction": "Declanșatoarele sunt cele ce încep procesarea unei reguli de automatizare. Este posibil să specificați mai multe declanșatoare pentru aceeași regulă. Odată ce începe declanșarea, Home Assistant va valida condițiile, dacă este cazul, și va apela acțiunea. \n\n [Aflați mai multe despre declanșatoare.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Declanșatoarele sunt cele ce încep procesarea unei reguli de automatizare. Este posibil să specificați mai multe declanșatoare pentru aceeași regulă. Odată ce începe declanșarea, E-Fonenana va valida condițiile, dacă este cazul, și va apela acțiunea. \n\n [Aflați mai multe despre declanșatoare.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Adăugați acțiune",
                             "duplicate": "Dublura",
                             "delete": "Ștergeți",
@@ -385,7 +385,7 @@
                                     "for": "Pentru"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Eveniment:",
                                     "start": "Începe",
                                     "shutdown": "Închide"
@@ -473,7 +473,7 @@
                         },
                         "actions": {
                             "header": "Acţiuni",
-                            "introduction": "Acțiunile sunt cele pe care Home Assistant le va face când se declanșează automatizarea. \n\n [Aflați mai multe despre acțiuni.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Acțiunile sunt cele pe care E-Fonenana le va face când se declanșează automatizarea. \n\n [Aflați mai multe despre acțiuni.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Adăugați o acțiune",
                             "duplicate": "Duplicat",
                             "delete": "Șterge",
@@ -529,7 +529,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "Logat ca {email}",
                     "description_not_login": "Nu sunteți conectat (ă)"
                 },
@@ -545,7 +545,7 @@
                         "no_devices": "Această integrare nu are dispozitive.",
                         "no_device": "Entități fără dispozitive",
                         "delete_confirm": "Sigur doriți să ștergeți această integrare?",
-                        "restart_confirm": "Reporniți Home Assistant pentru a termina eliminarea acestei integrări",
+                        "restart_confirm": "Reporniți E-Fonenana pentru a termina eliminarea acestei integrări",
                         "manuf": "de {manufacturer}",
                         "hub": "Conectat prin",
                         "firmware": "Firmware: {version}",
@@ -587,7 +587,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Tokenuri de acces de lunga durata",
-                    "description": "Creați tokenuri de acces cu durată lungă de viață pentru a permite script-urilor dvs. să interacționeze cu instanța dvs. Home Assistant. Fiecare token va fi valabil timp de 10 ani de la creatie. Următoarele tokenuri de acces de lungă durată sunt active la ora actuala.",
+                    "description": "Creați tokenuri de acces cu durată lungă de viață pentru a permite script-urilor dvs. să interacționeze cu instanța dvs. E-Fonenana. Fiecare token va fi valabil timp de 10 ani de la creatie. Următoarele tokenuri de acces de lungă durată sunt active la ora actuala.",
                     "learn_auth_requests": "Aflați cum să faceți cereri autentificate.",
                     "created_at": "Creat in {date}",
                     "confirm_delete": "Sigur doriti sa stergeti tokenul de acces pentru {name}?",
@@ -627,7 +627,7 @@
             },
             "page-authorize": {
                 "initializing": "Inițializează",
-                "authorizing_client": "Sunteți pe punctul de a da {clientId} accesul la instanța dumneavoastra de Home Assistant",
+                "authorizing_client": "Sunteți pe punctul de a da {clientId} accesul la instanța dumneavoastra de E-Fonenana",
                 "logging_in_with": "Conectare cu **{authProviderName}**.",
                 "pick_auth_provider": "Sau conectați-vă cu",
                 "abort_intro": "Conectare intrerupta",

@@ -74,7 +74,7 @@ class HaPanelDevInfo extends LitElement {
               <a href="https://www.home-assistant.io"
                 ><img src="/static/icons/favicon-192x192.png" height="192"/></a
               ><br />
-              Home Assistant<br />
+              E-Fonenana<br />
               ${hass.config.version}
             </p>
             <p>

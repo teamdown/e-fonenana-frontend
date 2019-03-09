@@ -324,8 +324,8 @@
                 "delete_button": "Suprimir"
             },
             "config": {
-                "header": "Configuració de Home Assistant",
-                "introduction": "Aquí pots configurar Home Assistant i els seus components. Encara no és possible configurar-ho tot des de la interfície d'usuari, però hi estem treballant.",
+                "header": "Configuració de E-Fonenana",
+                "introduction": "Aquí pots configurar E-Fonenana i els seus components. Encara no és possible configurar-ho tot des de la interfície d'usuari, però hi estem treballant.",
                 "core": {
                     "caption": "General",
                     "description": "Valida la configuració i controla el servidor",
@@ -342,7 +342,7 @@
                             },
                             "reloading": {
                                 "heading": "Recàrrega de la configuració",
-                                "introduction": "Algunes parts de la configuració de Home Assistant es poden recarregar sense necessitat de reiniciar-les. Les opcions de sota esborraran la configuració antiga i carregaran la nova.",
+                                "introduction": "Algunes parts de la configuració de E-Fonenana es poden recarregar sense necessitat de reiniciar-les. Les opcions de sota esborraran la configuració antiga i carregaran la nova.",
                                 "core": "Recarregar el nucli",
                                 "group": "Recarregar grups",
                                 "automation": "Recarregar automatismes",
@@ -350,7 +350,7 @@
                             },
                             "server_management": {
                                 "heading": "Gestió del servidor",
-                                "introduction": "Controla el servidor de Home Assistant... des de Home Assistant.",
+                                "introduction": "Controla el servidor de E-Fonenana... des de E-Fonenana.",
                                 "restart": "Reiniciar",
                                 "stop": "Aturar"
                             }
@@ -370,7 +370,7 @@
                     "description": "Crea i edita automatismes",
                     "picker": {
                         "header": "Editor d'automatismes",
-                        "introduction": "L'editor d'automatismes permet crear i editar automatismes. Llegeix [les instruccions](https:\/\/home-assistant.io\/docs\/automation\/editor\/) per assegurar-te que has configurat el Home Assistant correctament.",
+                        "introduction": "L'editor d'automatismes permet crear i editar automatismes. Llegeix [les instruccions](https:\/\/home-assistant.io\/docs\/automation\/editor\/) per assegurar-te que has configurat el E-Fonenana correctament.",
                         "pick_automation": "Selecciona l'automatisme a editar",
                         "no_automations": "No s'ha pogut trobar cap automatisme editable",
                         "add_automation": "Afegir automatisme",
@@ -384,7 +384,7 @@
                         "alias": "Nom",
                         "triggers": {
                             "header": "Activadors",
-                            "introduction": "Els activadors són les regles que fan que es dispari un automatisme. Pots definir més d'un activador per a cada automatisme. Una vegada s'iniciï un activador, el Home Assistant validarà les condicions (si n'hi ha) i finalment cridarà l'acció.\n\n[Més informació sobre activadors](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Els activadors són les regles que fan que es dispari un automatisme. Pots definir més d'un activador per a cada automatisme. Una vegada s'iniciï un activador, el E-Fonenana validarà les condicions (si n'hi ha) i finalment cridarà l'acció.\n\n[Més informació sobre activadors](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Afegir activador",
                             "duplicate": "Duplicar",
                             "delete": "Suprimir",
@@ -404,7 +404,7 @@
                                     "for": "Durant"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "E-Fonenana",
                                     "event": "Esdeveniment:",
                                     "start": "Inici",
                                     "shutdown": "Aturada"
@@ -512,7 +512,7 @@
                         },
                         "actions": {
                             "header": "Accions",
-                            "introduction": "Les accions són allò que farà Home Assistant quan s'activi l'automatisme i es compleixin totes les condicions (si n'hi ha).\n\n[Més informació sobre les accions](https:\/\/home-assistant.io\/docs\/automation\/action\/).",
+                            "introduction": "Les accions són allò que farà E-Fonenana quan s'activi l'automatisme i es compleixin totes les condicions (si n'hi ha).\n\n[Més informació sobre les accions](https:\/\/home-assistant.io\/docs\/automation\/action\/).",
                             "add": "Afegir acció",
                             "duplicate": "Duplicar",
                             "delete": "Suprimir",
@@ -577,7 +577,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "E-Fonenana Cloud",
                     "description_login": "Sessió iniciada com a {email}",
                     "description_not_login": "No has iniciat sessió"
                 },
@@ -593,7 +593,7 @@
                         "no_devices": "Aquesta integració no té dispositius.",
                         "no_device": "Entitats sense dispositius",
                         "delete_confirm": "Estas segur que vols suprimir aquesta integració?",
-                        "restart_confirm": "Reinicia el Home Assistant per acabar d'eliminar aquesta integració",
+                        "restart_confirm": "Reinicia el E-Fonenana per acabar d'eliminar aquesta integració",
                         "manuf": "de {manufacturer}",
                         "hub": "Connectat a través de",
                         "firmware": "Firmware: {version}",
@@ -614,7 +614,7 @@
                     "description": "Visió general de totes les àrees de la casa.",
                     "picker": {
                         "header": "Registre d'àrees",
-                        "introduction": "Les àrees s'utilitzen per organitzar la situació dels dispositius. Aquesta informació serà utilitzada per Home Assistant per ajudar-te a organitzar millor la teva interfície, els permisos i les integracions amb d'altres sistemes.",
+                        "introduction": "Les àrees s'utilitzen per organitzar la situació dels dispositius. Aquesta informació serà utilitzada per E-Fonenana per ajudar-te a organitzar millor la teva interfície, els permisos i les integracions amb d'altres sistemes.",
                         "introduction2": "Per col·locar dispositius en una àrea, utilitza l'enllaç de sota per anar a la pàgina d'integracions i, a continuació, fes clic a una integració configurada per accedir a les targetes del dispositiu.",
                         "integrations_page": "Pàgina d'integracions"
                     },
@@ -633,8 +633,8 @@
                     "picker": {
                         "header": "Registre d'entitats",
                         "unavailable": "(no disponible)",
-                        "introduction": "Home Assistant manté un registre de totes les entitats que ha detectat alguna vegada les quals tenen una identificació única. Cadascuna d'aquestes entitats té un identificador (ID) assignat que està reservat només per a ella.",
-                        "introduction2": "Utilitza el registre d'entitats per canviar el nom, canviar l'ID o eliminar l'entrada de Home Assistant de les entitats. Tingues en compte que eliminar-les del registre d'entitats no eliminarà l'entitat. Per fer-ho, segueix l'enllaç següent i elimineu-la dins la pàgina d'integracions.",
+                        "introduction": "E-Fonenana manté un registre de totes les entitats que ha detectat alguna vegada les quals tenen una identificació única. Cadascuna d'aquestes entitats té un identificador (ID) assignat que està reservat només per a ella.",
+                        "introduction2": "Utilitza el registre d'entitats per canviar el nom, canviar l'ID o eliminar l'entrada de E-Fonenana de les entitats. Tingues en compte que eliminar-les del registre d'entitats no eliminarà l'entitat. Per fer-ho, segueix l'enllaç següent i elimineu-la dins la pàgina d'integracions.",
                         "integrations_page": "Pàgina d'integracions"
                     },
                     "editor": {
@@ -646,7 +646,7 @@
                 },
                 "person": {
                     "caption": "Persones",
-                    "description": "Gestiona a quines persones fa seguiment Home Assistant.",
+                    "description": "Gestiona a quines persones fa seguiment E-Fonenana.",
                     "detail": {
                         "name": "Nom",
                         "device_tracker_intro": "Selecciona els dispositius que pertanyen a aquesta persona.",
@@ -688,7 +688,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Testimonis d'autenticació d'accés de llarga durada",
-                    "description": "Crea testimonis d'autenticació d'accés de llarga durada per permetre als teus programes (scripts) interactuar amb la instància de Home Assistant. Cada testimoni d'autenticació serà vàlid durant deu anys després de la seva creació. Els següents testimonis d'autenticació d'accés de llarga durada estan actius actualment.",
+                    "description": "Crea testimonis d'autenticació d'accés de llarga durada per permetre als teus programes (scripts) interactuar amb la instància de E-Fonenana. Cada testimoni d'autenticació serà vàlid durant deu anys després de la seva creació. Els següents testimonis d'autenticació d'accés de llarga durada estan actius actualment.",
                     "learn_auth_requests": "Aprèn a fer sol·licituds autenticades.",
                     "created_at": "Creat el {date}",
                     "confirm_delete": "Estàs segur que vols suprimir el testimoni d'autenticació d'accés per {name}?",
@@ -728,7 +728,7 @@
             },
             "page-authorize": {
                 "initializing": "S'està inicialitzant",
-                "authorizing_client": "Esteu a punt de permetre l'accés a la vostra instància de Home Assistant al client {clientId}.",
+                "authorizing_client": "Esteu a punt de permetre l'accés a la vostra instància de E-Fonenana al client {clientId}.",
                 "logging_in_with": "Iniciant sessió amb **{authProviderName}**.",
                 "pick_auth_provider": "O bé inicieu sessió amb",
                 "abort_intro": "S'ha avortat l'inici de sessió",
@@ -865,7 +865,7 @@
                     "migrate": {
                         "header": "Configuració incompatible",
                         "para_no_id": "Aquest element no té ID. Afegeix un ID per aquest element a 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant pot afegir ID's a totes les vostres targetes i visualitzacions automàticament fent clic al botó \"Migrar la configuració\".",
+                        "para_migrate": "E-Fonenana pot afegir ID's a totes les vostres targetes i visualitzacions automàticament fent clic al botó \"Migrar la configuració\".",
                         "migrate": "Migrar la configuració"
                     },
                     "header": "Editar la interfície d'usuari (UI)",
@@ -877,7 +877,7 @@
                     },
                     "save_config": {
                         "header": "Pren el control de la interfície d'usuari Lovelace",
-                        "para": "De manera predeterminada, Home Assistant mantindrà al dia la teva interfície d'usuari, actualitzant-la quan hi hagi noves entitats o nous components de Lovelace disponibles. Si prens el control, ja no es faran aquests canvis automàticament.",
+                        "para": "De manera predeterminada, E-Fonenana mantindrà al dia la teva interfície d'usuari, actualitzant-la quan hi hagi noves entitats o nous components de Lovelace disponibles. Si prens el control, ja no es faran aquests canvis automàticament.",
                         "para_sure": "Estàs segur que vols prendre el control de la interfície d'usuari?",
                         "cancel": "M'ho he repensat",
                         "save": "Prendre el control"
@@ -1136,7 +1136,7 @@
         "vacuum": "Aspiradora",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "E-Fonenana",
         "lovelace": "Lovelace",
         "system_health": "Estat del sistema",
         "person": "Persona"

@@ -273,7 +273,7 @@ export const generateLovelaceConfig = (
 
     // Make sure we don't have Home as title and first tab.
     if (views.length > 1 && title === "Home") {
-      title = "Home Assistant";
+      title = "E-Fonenana";
     }
   }
 

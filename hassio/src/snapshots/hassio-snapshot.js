@@ -73,9 +73,9 @@ class HassioSnapshot extends PolymerElement {
           [[_computeType(snapshot.type)]] ([[_computeSize(snapshot.size)]])<br />
           [[_formatDatetime(snapshot.date)]]
         </div>
-        <div>Home Assistant:</div>
+        <div>E-Fonenana:</div>
         <paper-checkbox checked="{{restoreHass}}">
-          Home Assistant [[snapshot.homeassistant]]
+          E-Fonenana [[snapshot.homeassistant]]
         </paper-checkbox>
         <template is="dom-if" if="[[snapshot.addons.length]]">
           <div>Folders:</div>
@@ -178,7 +178,7 @@ class HassioSnapshot extends PolymerElement {
     if (folders.includes("homeassistant"))
       list.push({
         slug: "homeassistant",
-        name: "Home Assistant configuration",
+        name: "E-Fonenana configuration",
         checked: true,
       });
     if (folders.includes("ssl"))

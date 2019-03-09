@@ -76,4 +76,4 @@ It is possible to compile the project and/or run commands in the development env
 
 ## License
 
-Home Assistant is open-source and Apache 2 licensed. Feel free to browse the repository, learn and reuse parts in your own projects.
+E-Fonenana is open-source and Apache 2 licensed. Feel free to browse the repository, learn and reuse parts in your own projects.

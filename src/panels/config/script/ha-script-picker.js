@@ -85,7 +85,7 @@ class HaScriptPicker extends LocalizeMixin(NavigateMixin(PolymerElement)) {
               target="_blank"
               >the instructions</a
             >
-            to make sure that you have configured Home Assistant correctly.
+            to make sure that you have configured E-Fonenana correctly.
           </div>
 
           <paper-card heading="Pick script to edit">
