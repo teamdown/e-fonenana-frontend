@@ -15,7 +15,7 @@
 First clone the project
 
 ```bash
-git clone ...
+git clone https://gitlab.com/teamdown/smart-home/frontend.git
 ```
 
 #### Configuring
@@ -26,7 +26,7 @@ Next step is to configure E-Fonenana to use the development mode for the fronten
 
 ```yaml
 frontend:
-  # Example absolute path: /home/paulus/dev/frontend
+  # Example absolute path: /home/mamy/dev/frontend
   development_repo: <absolute path to repo>
 ```
 
@@ -55,6 +55,8 @@ script/develop
 ```
 
 #### Building the Polymer frontend
+
+NB: Make sure to update `script.py` before launching script.
 
 If you're making changes to the way the frontend is packaged, it might be necessary to try out a new packaged build of the frontend in the main repository (instead of pointing it at the frontend repo). To do so, first build a production version of the frontend by running `script/build_frontend`
 
