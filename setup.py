@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="home-assistant-frontend",
+    name="e-fonenana-frontend",
     version="custom.20190305.1",
     description="The E-Fonenana frontend",
     url="https://gitlab.com/teamdown/smart-home/frontend",
