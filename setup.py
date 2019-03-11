@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="e-fonenana-frontend",
-    version="custom.20190305.1",
+    version="20190305.1",
     description="The E-Fonenana frontend",
     url="https://gitlab.com/teamdown/smart-home/frontend",
     author="The E-Fonenana Authors",
@@ -19,4 +19,13 @@ setup(
     install_requires=["user-agents==1.1.0"],
     include_package_data=True,
     zip_safe=False,
+    download_url = "https://github.com/teamdown/e-fonenana-frontend/archive/20190305.1.tar.gz",
+    classifiers=[
+    'Development Status :: 3 - Alpha', 
+    'Intended Audience :: N/A',    
+    'Topic :: N/A :: N/A',
+    'License :: OSI Approved :: MIT License',   # Again, pick a license
+    'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+  ],
 )
